@@ -58,8 +58,8 @@ class Season(models.Model):
     
 class Class(models.Model):
     name = models.CharField(max_length=50)
-    artist = models.ForeignKey(Artist, on_delete=models.PROTECT)
-    startNum = models.IntegerField()
+    artist = models.ForeignKey(Artist, on_delete=models.PROTECT, null=True)
+    startNum = models.IntegerField(null=True)
 
     class Meta:
         unique_together = ("name", "artist")
@@ -69,7 +69,7 @@ class Class(models.Model):
 
 class Collection(models.Model):
     name = models.CharField(max_length=100)
-    collection_number = models.IntegerField()
+    collection_number = models.IntegerField(null=True)
     physical = models.BooleanField(default=False)
 
     def __str__(self):

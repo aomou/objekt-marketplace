@@ -1,0 +1,1182 @@
+[
+  {
+    "key": {
+      "value": "Collection",
+      "count": 11142042
+    },
+    "values": [
+      {
+        "value": "100Z",
+        "count": 562499
+      },
+      {
+        "value": "101Z",
+        "count": 541114
+      },
+      {
+        "value": "103Z",
+        "count": 472709
+      },
+      {
+        "value": "104Z",
+        "count": 472500
+      },
+      {
+        "value": "102Z",
+        "count": 471892
+      },
+      {
+        "value": "106Z",
+        "count": 471519
+      },
+      {
+        "value": "107Z",
+        "count": 470949
+      },
+      {
+        "value": "105Z",
+        "count": 470254
+      },
+      {
+        "value": "108Z",
+        "count": 470010
+      },
+      {
+        "value": "323Z",
+        "count": 229100
+      },
+      {
+        "value": "109Z",
+        "count": 216812
+      },
+      {
+        "value": "117Z",
+        "count": 212648
+      },
+      {
+        "value": "341Z",
+        "count": 211956
+      },
+      {
+        "value": "119Z",
+        "count": 203170
+      },
+      {
+        "value": "118Z",
+        "count": 202751
+      },
+      {
+        "value": "120Z",
+        "count": 202643
+      },
+      {
+        "value": "113Z",
+        "count": 202551
+      },
+      {
+        "value": "114Z",
+        "count": 202096
+      },
+      {
+        "value": "110Z",
+        "count": 202036
+      },
+      {
+        "value": "115Z",
+        "count": 202027
+      },
+      {
+        "value": "112Z",
+        "count": 201609
+      },
+      {
+        "value": "111Z",
+        "count": 201572
+      },
+      {
+        "value": "116Z",
+        "count": 201091
+      },
+      {
+        "value": "310Z",
+        "count": 110727
+      },
+      {
+        "value": "301A",
+        "count": 106616
+      },
+      {
+        "value": "319Z",
+        "count": 100169
+      },
+      {
+        "value": "315Z",
+        "count": 99420
+      },
+      {
+        "value": "312Z",
+        "count": 91955
+      },
+      {
+        "value": "317Z",
+        "count": 89659
+      },
+      {
+        "value": "206Z",
+        "count": 88788
+      },
+      {
+        "value": "321Z",
+        "count": 88688
+      },
+      {
+        "value": "313Z",
+        "count": 82638
+      },
+      {
+        "value": "201Z",
+        "count": 81068
+      },
+      {
+        "value": "332Z",
+        "count": 80461
+      },
+      {
+        "value": "334A",
+        "count": 75650
+      },
+      {
+        "value": "202Z",
+        "count": 75578
+      },
+      {
+        "value": "333Z",
+        "count": 75536
+      },
+      {
+        "value": "311Z",
+        "count": 74773
+      },
+      {
+        "value": "326Z",
+        "count": 70130
+      },
+      {
+        "value": "331Z",
+        "count": 69720
+      },
+      {
+        "value": "338Z",
+        "count": 67447
+      },
+      {
+        "value": "318Z",
+        "count": 67186
+      },
+      {
+        "value": "218Z",
+        "count": 66839
+      },
+      {
+        "value": "205Z",
+        "count": 65831
+      },
+      {
+        "value": "327Z",
+        "count": 60614
+      },
+      {
+        "value": "316Z",
+        "count": 58553
+      },
+      {
+        "value": "320Z",
+        "count": 58022
+      },
+      {
+        "value": "330Z",
+        "count": 57571
+      },
+      {
+        "value": "328Z",
+        "count": 57460
+      },
+      {
+        "value": "200Z",
+        "count": 56113
+      },
+      {
+        "value": "324Z",
+        "count": 55081
+      },
+      {
+        "value": "356Z",
+        "count": 52671
+      },
+      {
+        "value": "345Z",
+        "count": 52443
+      },
+      {
+        "value": "203Z",
+        "count": 50724
+      },
+      {
+        "value": "357Z",
+        "count": 50606
+      },
+      {
+        "value": "204Z",
+        "count": 49689
+      },
+      {
+        "value": "329Z",
+        "count": 48408
+      },
+      {
+        "value": "343Z",
+        "count": 44558
+      },
+      {
+        "value": "325Z",
+        "count": 43516
+      },
+      {
+        "value": "347Z",
+        "count": 42706
+      },
+      {
+        "value": "342Z",
+        "count": 42615
+      },
+      {
+        "value": "314Z",
+        "count": 40450
+      },
+      {
+        "value": "207A",
+        "count": 37832
+      },
+      {
+        "value": "208A",
+        "count": 37732
+      },
+      {
+        "value": "309Z",
+        "count": 37590
+      },
+      {
+        "value": "340Z",
+        "count": 36212
+      },
+      {
+        "value": "302A",
+        "count": 33750
+      },
+      {
+        "value": "303A",
+        "count": 33492
+      },
+      {
+        "value": "354Z",
+        "count": 33130
+      },
+      {
+        "value": "334Z",
+        "count": 30776
+      },
+      {
+        "value": "344Z",
+        "count": 29274
+      },
+      {
+        "value": "346Z",
+        "count": 27547
+      },
+      {
+        "value": "309A",
+        "count": 26679
+      },
+      {
+        "value": "348Z",
+        "count": 26498
+      },
+      {
+        "value": "303Z",
+        "count": 25787
+      },
+      {
+        "value": "335Z",
+        "count": 25580
+      },
+      {
+        "value": "339Z",
+        "count": 25558
+      },
+      {
+        "value": "322Z",
+        "count": 24843
+      },
+      {
+        "value": "207Z",
+        "count": 24581
+      },
+      {
+        "value": "208Z",
+        "count": 24464
+      },
+      {
+        "value": "322A",
+        "count": 24035
+      },
+      {
+        "value": "209Z",
+        "count": 23930
+      },
+      {
+        "value": "349Z",
+        "count": 23106
+      },
+      {
+        "value": "336Z",
+        "count": 20007
+      },
+      {
+        "value": "353Z",
+        "count": 19770
+      },
+      {
+        "value": "304Z",
+        "count": 19079
+      },
+      {
+        "value": "210A",
+        "count": 17672
+      },
+      {
+        "value": "337Z",
+        "count": 17496
+      },
+      {
+        "value": "355Z",
+        "count": 16867
+      },
+      {
+        "value": "304A",
+        "count": 15948
+      },
+      {
+        "value": "216A",
+        "count": 15579
+      },
+      {
+        "value": "217A",
+        "count": 15276
+      },
+      {
+        "value": "307A",
+        "count": 15217
+      },
+      {
+        "value": "306A",
+        "count": 15039
+      },
+      {
+        "value": "211A",
+        "count": 15036
+      },
+      {
+        "value": "305A",
+        "count": 14815
+      },
+      {
+        "value": "305Z",
+        "count": 14388
+      },
+      {
+        "value": "314A",
+        "count": 14255
+      },
+      {
+        "value": "337A",
+        "count": 13928
+      },
+      {
+        "value": "212A",
+        "count": 13799
+      },
+      {
+        "value": "308Z",
+        "count": 12918
+      },
+      {
+        "value": "308A",
+        "count": 12500
+      },
+      {
+        "value": "209A",
+        "count": 11871
+      },
+      {
+        "value": "307Z",
+        "count": 11738
+      },
+      {
+        "value": "331A",
+        "count": 11067
+      },
+      {
+        "value": "332A",
+        "count": 10940
+      },
+      {
+        "value": "306Z",
+        "count": 10906
+      },
+      {
+        "value": "313A",
+        "count": 10668
+      },
+      {
+        "value": "330A",
+        "count": 8845
+      },
+      {
+        "value": "213A",
+        "count": 8003
+      },
+      {
+        "value": "336A",
+        "count": 7811
+      },
+      {
+        "value": "216Z",
+        "count": 7502
+      },
+      {
+        "value": "328A",
+        "count": 7366
+      },
+      {
+        "value": "346A",
+        "count": 7322
+      },
+      {
+        "value": "327A",
+        "count": 7089
+      },
+      {
+        "value": "345A",
+        "count": 6823
+      },
+      {
+        "value": "351Z",
+        "count": 6240
+      },
+      {
+        "value": "000Z",
+        "count": 5788
+      },
+      {
+        "value": "325A",
+        "count": 5166
+      },
+      {
+        "value": "324A",
+        "count": 5118
+      },
+      {
+        "value": "359Z",
+        "count": 5103
+      },
+      {
+        "value": "350Z",
+        "count": 4919
+      },
+      {
+        "value": "326A",
+        "count": 4699
+      },
+      {
+        "value": "351A",
+        "count": 4539
+      },
+      {
+        "value": "102A",
+        "count": 4469
+      },
+      {
+        "value": "108A",
+        "count": 4428
+      },
+      {
+        "value": "101A",
+        "count": 4419
+      },
+      {
+        "value": "104A",
+        "count": 4412
+      },
+      {
+        "value": "105A",
+        "count": 4407
+      },
+      {
+        "value": "106A",
+        "count": 4404
+      },
+      {
+        "value": "103A",
+        "count": 4360
+      },
+      {
+        "value": "107A",
+        "count": 4342
+      },
+      {
+        "value": "323A",
+        "count": 2971
+      },
+      {
+        "value": "339A",
+        "count": 2885
+      },
+      {
+        "value": "302Z",
+        "count": 2829
+      },
+      {
+        "value": "220Z",
+        "count": 2709
+      },
+      {
+        "value": "402Z",
+        "count": 2680
+      },
+      {
+        "value": "352Z",
+        "count": 2637
+      },
+      {
+        "value": "301Z",
+        "count": 2535
+      },
+      {
+        "value": "219Z",
+        "count": 2318
+      },
+      {
+        "value": "217Z",
+        "count": 2175
+      },
+      {
+        "value": "112A",
+        "count": 1947
+      },
+      {
+        "value": "218A",
+        "count": 1946
+      },
+      {
+        "value": "116A",
+        "count": 1942
+      },
+      {
+        "value": "113A",
+        "count": 1939
+      },
+      {
+        "value": "114A",
+        "count": 1910
+      },
+      {
+        "value": "115A",
+        "count": 1906
+      },
+      {
+        "value": "110A",
+        "count": 1890
+      },
+      {
+        "value": "109A",
+        "count": 1889
+      },
+      {
+        "value": "202A",
+        "count": 1887
+      },
+      {
+        "value": "111A",
+        "count": 1876
+      },
+      {
+        "value": "358Z",
+        "count": 1875
+      },
+      {
+        "value": "219A",
+        "count": 1852
+      },
+      {
+        "value": "221A",
+        "count": 1837
+      },
+      {
+        "value": "220A",
+        "count": 1833
+      },
+      {
+        "value": "225Z",
+        "count": 1761
+      },
+      {
+        "value": "343A",
+        "count": 1661
+      },
+      {
+        "value": "352A",
+        "count": 1586
+      },
+      {
+        "value": "344A",
+        "count": 1355
+      },
+      {
+        "value": "342A",
+        "count": 1343
+      },
+      {
+        "value": "401A",
+        "count": 1326
+      },
+      {
+        "value": "349A",
+        "count": 1290
+      },
+      {
+        "value": "401Z",
+        "count": 1271
+      },
+      {
+        "value": "347A",
+        "count": 1172
+      },
+      {
+        "value": "348A",
+        "count": 1152
+      },
+      {
+        "value": "350A",
+        "count": 1121
+      },
+      {
+        "value": "213Z",
+        "count": 916
+      },
+      {
+        "value": "119A",
+        "count": 888
+      },
+      {
+        "value": "117A",
+        "count": 867
+      },
+      {
+        "value": "120A",
+        "count": 865
+      },
+      {
+        "value": "118A",
+        "count": 839
+      },
+      {
+        "value": "315A",
+        "count": 678
+      },
+      {
+        "value": "316A",
+        "count": 678
+      },
+      {
+        "value": "214Z",
+        "count": 622
+      },
+      {
+        "value": "215A",
+        "count": 601
+      },
+      {
+        "value": "210Z",
+        "count": 579
+      },
+      {
+        "value": "204A",
+        "count": 572
+      },
+      {
+        "value": "215Z",
+        "count": 571
+      },
+      {
+        "value": "214A",
+        "count": 529
+      },
+      {
+        "value": "205A",
+        "count": 488
+      },
+      {
+        "value": "212Z",
+        "count": 444
+      },
+      {
+        "value": "203A",
+        "count": 439
+      },
+      {
+        "value": "211Z",
+        "count": 436
+      },
+      {
+        "value": "221Z",
+        "count": 377
+      },
+      {
+        "value": "223Z",
+        "count": 371
+      },
+      {
+        "value": "224Z",
+        "count": 367
+      },
+      {
+        "value": "222Z",
+        "count": 359
+      },
+      {
+        "value": "310A",
+        "count": 347
+      },
+      {
+        "value": "311A",
+        "count": 334
+      },
+      {
+        "value": "312A",
+        "count": 332
+      },
+      {
+        "value": "206A",
+        "count": 193
+      },
+      {
+        "value": "201A",
+        "count": 97
+      },
+      {
+        "value": "100U",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "key": {
+      "value": "Member",
+      "count": 11135283
+    },
+    "values": [
+      {
+        "value": "YooYeon",
+        "count": 561740
+      },
+      {
+        "value": "SeoYeon",
+        "count": 558669
+      },
+      {
+        "value": "NaKyoung",
+        "count": 488481
+      },
+      {
+        "value": "YuBin",
+        "count": 423738
+      },
+      {
+        "value": "JiWoo",
+        "count": 422908
+      },
+      {
+        "value": "SoHyun",
+        "count": 407301
+      },
+      {
+        "value": "Kotone",
+        "count": 403079
+      },
+      {
+        "value": "HeeJin",
+        "count": 399496
+      },
+      {
+        "value": "SooMin",
+        "count": 390109
+      },
+      {
+        "value": "ChaeYeon",
+        "count": 389476
+      },
+      {
+        "value": "Xinyu",
+        "count": 383257
+      },
+      {
+        "value": "Kaede",
+        "count": 381575
+      },
+      {
+        "value": "HyeRin",
+        "count": 380838
+      },
+      {
+        "value": "Nien",
+        "count": 376067
+      },
+      {
+        "value": "JinSoul",
+        "count": 365601
+      },
+      {
+        "value": "Choerry",
+        "count": 364239
+      },
+      {
+        "value": "KimLip",
+        "count": 356927
+      },
+      {
+        "value": "DaHyun",
+        "count": 355429
+      },
+      {
+        "value": "YeonJi",
+        "count": 355170
+      },
+      {
+        "value": "HaSeul",
+        "count": 328986
+      },
+      {
+        "value": "Mayu",
+        "count": 326637
+      },
+      {
+        "value": "JiYeon",
+        "count": 322307
+      },
+      {
+        "value": "HaYeon",
+        "count": 315756
+      },
+      {
+        "value": "ChaeWon",
+        "count": 314224
+      },
+      {
+        "value": "Lynn",
+        "count": 298023
+      },
+      {
+        "value": "ShiOn",
+        "count": 288196
+      },
+      {
+        "value": "JooBin",
+        "count": 268781
+      },
+      {
+        "value": "SeoAh",
+        "count": 264899
+      },
+      {
+        "value": "Sullin",
+        "count": 256540
+      },
+      {
+        "value": "idntt",
+        "count": 71117
+      },
+      {
+        "value": "Möbius Club",
+        "count": 55839
+      },
+      {
+        "value": "JiWoon",
+        "count": 34419
+      },
+      {
+        "value": "HeeJu",
+        "count": 33571
+      },
+      {
+        "value": "TaeIn",
+        "count": 32897
+      },
+      {
+        "value": "DoHun",
+        "count": 32008
+      },
+      {
+        "value": "JaeYoung",
+        "count": 31953
+      },
+      {
+        "value": "JuHo",
+        "count": 31414
+      },
+      {
+        "value": "HwanHee",
+        "count": 29867
+      },
+      {
+        "value": "Assemble24",
+        "count": 14802
+      },
+      {
+        "value": "Club Icarus",
+        "count": 3385
+      },
+      {
+        "value": "tripleS",
+        "count": 2943
+      },
+      {
+        "value": "S21",
+        "count": 1785
+      },
+      {
+        "value": "Savior",
+        "count": 1733
+      },
+      {
+        "value": "S24",
+        "count": 1723
+      },
+      {
+        "value": "S22",
+        "count": 1509
+      },
+      {
+        "value": "S23",
+        "count": 1507
+      },
+      {
+        "value": "AAA",
+        "count": 1364
+      },
+      {
+        "value": "+(KR)E",
+        "count": 1322
+      },
+      {
+        "value": "MinGyeol",
+        "count": 970
+      },
+      {
+        "value": "TokyoHaus",
+        "count": 159
+      },
+      {
+        "value": "id1 X id2",
+        "count": 49
+      },
+      {
+        "value": "id2 X id4",
+        "count": 46
+      },
+      {
+        "value": "id1 X id4",
+        "count": 35
+      },
+      {
+        "value": "id1 X id6",
+        "count": 28
+      },
+      {
+        "value": "id1 X id7",
+        "count": 27
+      },
+      {
+        "value": "id5 X id6",
+        "count": 27
+      },
+      {
+        "value": "id2 X id8",
+        "count": 26
+      },
+      {
+        "value": "id2 X id7",
+        "count": 26
+      },
+      {
+        "value": "id4 X id7",
+        "count": 25
+      },
+      {
+        "value": "id4 X id8",
+        "count": 25
+      },
+      {
+        "value": "id5 X id8",
+        "count": 23
+      },
+      {
+        "value": "id1 X id8",
+        "count": 23
+      },
+      {
+        "value": "id7 X id8",
+        "count": 22
+      },
+      {
+        "value": "id4 X id5",
+        "count": 22
+      },
+      {
+        "value": "id6 X id7",
+        "count": 22
+      },
+      {
+        "value": "id2 X id6",
+        "count": 21
+      },
+      {
+        "value": "id2 X id5",
+        "count": 20
+      },
+      {
+        "value": "id4 X id6",
+        "count": 19
+      },
+      {
+        "value": "id5 X id7",
+        "count": 17
+      },
+      {
+        "value": "id6 X id8",
+        "count": 17
+      },
+      {
+        "value": "id1 X id5",
+        "count": 16
+      },
+      {
+        "value": "ArtmsTest",
+        "count": 11
+      }
+    ]
+  },
+  {
+    "key": {
+      "value": "Class",
+      "count": 11142042
+    },
+    "values": [
+      {
+        "value": "First",
+        "count": 6289898
+      },
+      {
+        "value": "Double",
+        "count": 3405204
+      },
+      {
+        "value": "Welcome",
+        "count": 618612
+      },
+      {
+        "value": "Special",
+        "count": 571536
+      },
+      {
+        "value": "Event",
+        "count": 189673
+      },
+      {
+        "value": "Basic",
+        "count": 56054
+      },
+      {
+        "value": "Zero",
+        "count": 5788
+      },
+      {
+        "value": "Premier",
+        "count": 4741
+      },
+      {
+        "value": "Unit",
+        "count": 536
+      }
+    ]
+  },
+  {
+    "key": {
+      "value": "Season",
+      "count": 11142043
+    },
+    "values": [
+      {
+        "value": "Atom02",
+        "count": 2991176
+      },
+      {
+        "value": "Divine01",
+        "count": 2367169
+      },
+      {
+        "value": "Ever01",
+        "count": 1977237
+      },
+      {
+        "value": "Cream01",
+        "count": 1608381
+      },
+      {
+        "value": "Atom01",
+        "count": 1000627
+      },
+      {
+        "value": "Binary01",
+        "count": 891941
+      },
+      {
+        "value": "Summer25",
+        "count": 263150
+      },
+      {
+        "value": "Spring25",
+        "count": 42362
+      }
+    ]
+  },
+  {
+    "key": {
+      "value": "Artist",
+      "count": 11142041
+    },
+    "values": [
+      {
+        "value": "tripleS",
+        "count": 8960312
+      },
+      {
+        "value": "ARTMS",
+        "count": 1876217
+      },
+      {
+        "value": "idntt",
+        "count": 305512
+      }
+    ]
+  }
+]
