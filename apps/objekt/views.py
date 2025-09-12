@@ -6,6 +6,6 @@ from .models import ObjektCard  # 從 models.py 匯入資料表
 
 def all_card_list(request):
     # 取出所有資料(前50) 先查詢好 FK
-    qs = ObjektCard.objects.select_related('artist', 'member', 'season', 'objekt_class', 'collection').all()[:50]
+    qs = ObjektCard.objects.select_related('objekt_type',).all()[:50]
     return render(request, template_name='objekt/list.html', context={'cards': qs})
 
