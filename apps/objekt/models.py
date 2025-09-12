@@ -34,7 +34,7 @@ class Artist(models.Model):
 
 class Member(models.Model):
     name = models.CharField(max_length=50)
-    artist = models.ForeignKey(Artist, on_delete=models.PROTECT) 
+    artist = models.ForeignKey(Artist, on_delete=models.PROTECT, blank=True, null=True) 
     memberCode = models.CharField(max_length=50)
     memberNum = models.IntegerField()
 
