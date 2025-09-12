@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+    <!-- 設定各頁面共同的區塊結構 parent template -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+
+        <title> {% block title %} {% endblock %} </title>  
+        
+        <link rel="stylesheet" href="{% static 'first.css' %}">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
+    </head>
+
+    <body>
+        <!-- header -->
+        <header>
+            {% block header %}
+            {% endblock %}
+        </header>
+
+        <!-- navigation -->
+         <div class="nav-grid">
+            <nav>
+                <p> Navigation area </p>
+                <ul>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </nav>
+         </div>
+
+        <!-- content 各頁面定義 -->
+        <div>
+            {% block content %}
+            {% endblock %}
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <p class="footer1"> footer </p>
+        </footer>
+        <!-- script src="script.js" -->
+
+    </body>
+</html>
