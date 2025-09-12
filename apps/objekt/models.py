@@ -69,7 +69,8 @@ class Class(models.Model):
 
 class Collection(models.Model):
     name = models.CharField(max_length=100)
-    collection_number = models.IntegerField(null=True)
+    collection_number = models.CharField(max_length=20, blank=True, null=True)
+    collection_suffix = models.CharField(max_length=20, null=True)
     physical = models.BooleanField(default=False)
 
     def __str__(self):

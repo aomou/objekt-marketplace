@@ -40,20 +40,28 @@ classes = traits.get('Class', [])
 
 created = {'collection': 0, 'class': 0}  # 記錄新加入的數量
 
+# 如果要重寫可先刪掉
+# Collection.objects.all().delete()
+# Class.objects.all().delete()
+
+
+# 寫入資料
 # 把資料庫操作 包成一組 有錯會全部 rollback 只有全部成功才會寫入
 with transaction.atomic():
     # collection
     for name in collections:
         # 判斷 physical, 擷取 collection_number 數字部分
-        is_physical = str(name).strip().endswith('Z')
+        is_physical = str(name).strip().endswith('A')
         digits = ''.join(ch for ch in str(name) if ch.isdigit())
-        collection_number = int(digits) if digits else null
+        suffix = str(name)[-1]
+        collection_number = digits or None
 
         # 先查詢有沒有此 name，有查到就回傳 is_new = False，沒有就新增 is_new=T
-        obj, is_new = Collection.objects.get_or_create( 
+        obj, is_new = Collection.objects.update_or_create( 
             name = name,
             defaults = {
                 'collection_number': collection_number,
+                'collection_suffix': suffix,
                 'physical': is_physical,
             },
         )
@@ -61,7 +69,7 @@ with transaction.atomic():
             created['collection'] += 1
 
     for cname in classes:
-        obj, is_new = Class.objects.get_or_create(
+        obj, is_new = Class.objects.update_or_create(
             name = cname,
         )
         if is_new: created['class'] += 1
