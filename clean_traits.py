@@ -48,6 +48,7 @@ created = {'collection': 0, 'class': 0}  # 記錄新加入的數量
 # 寫入資料
 # 把資料庫操作 包成一組 有錯會全部 rollback 只有全部成功才會寫入
 with transaction.atomic():
+
     # collection
     for name in collections:
         # 判斷 physical, 擷取 collection_number 數字部分
@@ -68,11 +69,20 @@ with transaction.atomic():
         if is_new: 
             created['collection'] += 1
 
+    # class
     for cname in classes:
         obj, is_new = Class.objects.update_or_create(
             name = cname,
         )
         if is_new: created['class'] += 1
+
+    # artist
+
+    # member
+
+    # season
+
+    
 
 print('Done.', created)
 
