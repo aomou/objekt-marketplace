@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;   /* rm browser default border */
+    padding: 0;
+}
+
+/* header */
