@@ -31,16 +31,44 @@ header h3:hover {
   text-shadow: 1px 1px 2px black, 0 0 25px #047, 0 0 5px #049;
 }
 
-/* nav */
-.nav-grid * {
-    margin: 0;
-    padding: 5px 5px;
+/* navigation tabs */
+.nav-grid nav {
+  width: 100%;
+}
+
+.nav-grid nav ul {
+  display: flex;
+  justify-content: space-evenly; /* 均勻分布 */
+  gap: 5px;
+  
+  /* 基本重設，確保佈局乾淨 */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.nav-grid nav li {
+  flex: 1;  /* 讓每個 tab 都會一樣寬 */
+  text-align: center;
 }
 
 
-/* div */
-div {
-  width: 97%;
-  margin: auto;
-  text-align: center;
+
+/* footer */
+footer p {
+  /* 1. appearance */
+  background-color: #24537D;
+  color: white;
+  width: 100%;
+  gap: 2px;
+  padding: 10px 0; /* 增加上下內距，左右為0 */
+  box-sizing: border-box; /* 讓 padding 不會影響總寬高 */
+  margin-top: 30px;
+
+  /* 2. Flexbox  */
+  display: flex;
+  flex-direction: column; /* 讓子項目垂直排列 */
+  justify-content: center; /* 垂直置中 */
+  align-items: center;     /* 水平置中 */
 }
