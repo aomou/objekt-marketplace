@@ -1,7 +1,14 @@
 {% extends "base.html" %}
+{% load static %}  
 
 {% block title %}
     All Objekt list
+{% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'list.css' %}">
 {% endblock %}
 
 {% block header %}
@@ -10,16 +17,17 @@
 
 
 {% block content %}
+    <div>
+        <p>共 {{ cards | length }} 張卡</p>
+    </div>
     <div class="display-all-objekt">
-        <ul>
-            {% for c in cards %}
-                <li>
-                    {{ c }}
-                    {% if c.image_url %}
-                        <br><img src="{{ c.image_url }}" alt="" style="max-height:120px">
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
+        {% for c in cards %}
+            <div>
+                {% if c.objekt_type.image_uri %}
+                    <img src="{{ c.objekt_type.image_uri }}" alt="{{ c.objekt_type }}" style="max-height:120px">
+                {% endif %}
+                <p> {{ c }} </p>
+            </div>
+        {% endfor %}
     </div>
 {% endblock %}

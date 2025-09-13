@@ -9,10 +9,12 @@
         <meta name="viewport" content="width=device-width">
 
         <title> {% block title %} {% endblock %} </title>  
-        
+
         <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" >
         <link rel="stylesheet" href="{% static 'base.css' %}">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans" />
+        <!-- 放子分頁的 css -->
+        {% block extra_css %} {% endblock %}
     </head>
 
     <body>
@@ -27,8 +29,8 @@
             <nav>
                 <p> Navigation area </p>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li> button 1</li>
+                    <li> button 2 </li>
                 </ul>
             </nav>
          </div>
