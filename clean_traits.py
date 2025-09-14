@@ -17,10 +17,10 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 from django.db import transaction
-from apps.objekt.models import Collection, Class # 之後加入其他表
+from apps.objekt.models import Collection, Class, Artist, Member, ObjektCard, ObjektType
 
 # 讀取檔案
-# 1) request from cosmo api
+# 1) request from cosmo api 
 # todo
 
 # 2) read from local file
@@ -35,14 +35,18 @@ for trait in data:
     trait_raw_list = trait['values']
     traits[trait_name] = [option['value'] for option in trait_raw_list]
 
-collections = traits.get('Collection', [])
+collections = sorted(traits.get('Collection', []))
 classes = traits.get('Class', [])
+artists = traits.get('Artist', [])
+members = traits.get('Member', [])
 
-created = {'collection': 0, 'class': 0}  # 記錄新加入的數量
+created = {'collection': 0, 'class': 0, 'artist': 0, 'member': 0}  # 記錄新加入的數量
 
-# 如果要重寫可先刪掉
+# 如果要重新匯入可先刪掉舊的
 # Collection.objects.all().delete()
 # Class.objects.all().delete()
+# Artist.objects.all().delete()
+# Member.objects.all().delete()
 
 
 # 寫入資料
@@ -77,8 +81,21 @@ with transaction.atomic():
         if is_new: created['class'] += 1
 
     # artist
+    for artist in artists:
+        obj, is_new = Artist.objects.update_or_create(
+            name = artist,
+            tokenId = 1 if name == 'tripleS' else 2 if name == 'ARTMS' else 3,
+            sex = 'M' if name == 'idntt' else 'F',
+        )
+        if is_new: created['artist'] += 1
 
     # member
+    for member in members:
+        obj, is_new = Member.objects.update_or_create(
+            name = member,
+            # 其他欄位之後再手動填
+        )
+        if is_new: created['member'] += 1
 
     # season
 

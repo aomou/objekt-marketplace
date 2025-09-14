@@ -14,7 +14,7 @@ from django.db import models
 '''
 
 class Artist(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, primary_key=True)
     tokenId = models.IntegerField()
    # debutYear = models.IntegerField() 很難定義
    # debutDate = models.DateField(null=True)
@@ -33,16 +33,19 @@ class Artist(models.Model):
 #     debutDate = models.DateField(null=True)
 
 class Member(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, primary_key=True)
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT, blank=True, null=True) 
-    memberCode = models.CharField(max_length=50)
-    memberNum = models.IntegerField()
+    memberCode = models.CharField(max_length=50, blank=True, null=True)
+    memberNum = models.IntegerField(blank=True, null=True)
+
+    class Meta:
+        ordering = ['memberNum']   # 預設 query 的排序
 
     def __str__(self):
         return self.name
 
 class Season(models.Model):
-    name = models.CharField(max_length=50)
+    name = models.CharField(max_length=50, primary_key=True)
     shortname = models.CharField(max_length=50, blank=True)
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT) 
     startDate = models.DateField(null=True, blank=True)
@@ -52,29 +55,37 @@ class Season(models.Model):
     
     class Meta:
         unique_together = ("name", "artist")
+        ordering = ['artist', 'startDate']
 
     def __str__(self):
         return self.name
     
 class Class(models.Model):
-    name = models.CharField(max_length=50)
-    artist = models.ForeignKey(Artist, on_delete=models.PROTECT, null=True)
-    startNum = models.IntegerField(null=True)
+    name = models.CharField(max_length=50) # PK
+    artist = models.ForeignKey(Artist, on_delete=models.PROTECT, null=True) # blank=True, 
+    startNum = models.IntegerField(null=True) # blank=True, 
 
     class Meta:
         unique_together = ("name", "artist")
+        ordering = ['artist', 'startNum']
 
     def __str__(self):
         return self.name
 
+# TODO add artist to class mapping 
+
 class Collection(models.Model):
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, primary_key=True)
     collection_number = models.CharField(max_length=20, blank=True, null=True)
     collection_suffix = models.CharField(max_length=20, null=True)
     physical = models.BooleanField(default=False)
 
+    class Meta:
+        ordering = ['name']
+
     def __str__(self):
         return self.name
+
 
 
 # 卡面
@@ -94,6 +105,9 @@ class ObjektType(models.Model):
 
     def __str__(self):
         return f"{self.season.name} {self.member.name} {self.collection.name}"    
+
+    class Meta:
+        ordering = ['artist', 'collection', 'member']
 
 # 卡實體 with serial
 class ObjektCard(models.Model):
