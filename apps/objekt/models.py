@@ -45,8 +45,8 @@ class Season(models.Model):
     name = models.CharField(max_length=50)
     shortname = models.CharField(max_length=50, blank=True)
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT) 
-    startDate = models.DateField(null=True)
-    endDate = models.DateField(null=True)
+    startDate = models.DateField(null=True, blank=True)
+    endDate = models.DateField(null=True, blank=True)
     seasonPrefix = models.CharField(max_length=50)
     seasonNum = models.IntegerField()
     
