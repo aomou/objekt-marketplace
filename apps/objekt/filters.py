@@ -7,17 +7,17 @@ from .models import ObjektType, ObjektCard, Artist, Member, Class, Season, Colle
 class ObjektTypeFilter(django_filters.FilterSet):
     artist = django_filters.ModelChoiceFilter(
         field_name = 'artist',
-        queryset = Artist.objects.all(),
+        queryset = Artist.objects.all().order_by('tokenId'),
         widget = forms.Select(attrs={'onchange': 'this.form.submit()'})
     )
     member = django_filters.ModelChoiceFilter(
         field_name = 'member',
-        queryset = Member.objects.all(),
+        queryset = Member.objects.all().order_by('artist__tokenId', 'memberNum'),
         widget = forms.Select(attrs={'onchange': 'this.form.submit()'})
     )
     objekt_class = django_filters.ModelChoiceFilter(
         field_name = 'objekt_class',
-        queryset = Class.objects.all(),
+        queryset = Class.objects.all().order_by('artist__name', 'name'),
         widget = forms.Select(attrs={'onchange': 'this.form.submit()'})
     )
 

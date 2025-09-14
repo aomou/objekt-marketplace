@@ -25,6 +25,38 @@
         </form>
     </div>
 
+    <!-- sort -->
+    <div class="sort-bar">
+        <form method="GET" id="sort-form">
+            <!-- 保留現有的 filter 參數 -->
+            {% for field in objektFilter.form %}
+                {% if field.value %}
+                    <input type="hidden" name="{{ field.name }}" value="{{ field.value }}">
+                {% endif %}
+            {% endfor %}
+            
+            <label for="sort-select"> 主要排序： </label>
+            <select id="sort-select" name="sort_by" onchange="this.form.submit()">
+                <option value="season" {% if request.GET.sort_by == 'season' %}selected{% endif %}> Season </option>
+                <option value="member" {% if request.GET.sort_by == 'member' %}selected{% endif %}> Member </option>
+                <option value="collection__name" {% if request.GET.sort_by == 'collection' %}selected{% endif %}> Collection </option>
+            </select>
+            
+            <label for="sort-secondary"> 次要排序： </label>
+            <select id="sort-secondary" name="sort_secondary" onchange="this.form.submit()">
+                <option value="" {% if not request.GET.sort_secondary %}selected{% endif %}> -- 無 -- </option>
+                <option value="season" {% if request.GET.sort_secondary == 'season' %}selected{% endif %}> Season </option>
+                <option value="member" {% if request.GET.sort_secondary == 'member' %}selected{% endif %}> Member </option>
+                <option value="collection__name" {% if request.GET.sort_secondary == 'collection' %}selected{% endif %}> Collection </option>
+            </select>
+            
+            <select id="order-select" name="order" onchange="this.form.submit()">
+                <option value="asc" {% if request.GET.order == 'asc' %}selected{% endif %}> Ascending ↑ </option>
+                <option value="desc" {% if request.GET.order == 'desc' %}selected{% endif %}> Descending ↓ </option>
+            </select>
+        </form>
+    </div>
+
     <!-- objekt stats info -->
     <div class="info-area">
         <p>共 {{ cards | length }} 張卡</p>

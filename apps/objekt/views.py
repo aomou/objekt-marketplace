@@ -25,13 +25,32 @@ from .filters import ObjektTypeFilter
 
 
 def filtered_objekt_type(request):
+    # get all data
     objekts = ObjektType.objects.select_related('artist', 'member', 'season', 'collection', 'objekt_class').all()
-
-    # GET
+    
+    # filter
     objektFilter = ObjektTypeFilter(request.GET, queryset=objekts)  # queryset 搜尋的範圍
     
+    # sort
+    sort_by = request.GET.get('sort_by', 'season') # 預設用 season 排序
+    sort_secondary = request.GET.get('sort_secondary', '') # 次要排序
+    order = request.GET.get('order', 'asc')  # 預設 ascending
+
+    # 建立排序列表
+    ordering = []
+    if order == 'asc':
+        ordering.append(sort_by)
+        if sort_secondary:
+            ordering.append(sort_secondary)
+    else:
+        ordering.append(f'-{sort_by}')
+        if sort_secondary:
+            ordering.append(f'-{sort_secondary}')
+    
+    sorted_qs = objektFilter.qs.order_by(*ordering)
+
     context = {
         'objektFilter': objektFilter,
-        'cards': objektFilter.qs, # 篩選完的結果
+        'cards': sorted_qs, # 篩選排序完的結果
         }
     return render(request, template_name='objekt/list.html', context=context)
