@@ -89,7 +89,7 @@ Collection (name, collectionNumber, physical)
 ObjektCard (collection, artist:FK, member:FK, season:FK, class:FK)
 
 # marketplace / 販售清單
-Listing (listId:PK, user:FK, objekt_card:FK, price, is_active, created_at)
+ObjektList (listId:PK, user:FK, objekt_card:FK, price, is_active, created_at)
 ```
 
 ## 專案檔案結構

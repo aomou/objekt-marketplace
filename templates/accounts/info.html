@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}  
+
+{% block title %}
+    My Account
+{% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'info.css' %}">
+{% endblock %}
+
+
+{% block content %}
+    <div class="user-info">
+        <div class="profile-check">
+            {% if profile_created %}
+                <div class="banner">已為你建立 Profile，請補齊資料</div>
+            {% elif not profile.wallet_address or not profile.contact_info %}
+                <div class="banner">未填寫 profile，補齊可解鎖更多功能</div>
+            {% endif %}
+        </div>
+
+        <h3> My Account info </h3>
+        <p> username: {{ username }} </p>
+        {% if request.user.email %}
+            <p> email: {{ request.user.email }} </p>
+        {% endif %}
+        <ul>
+            <li> Wallet: {{ user_profile.wallet_address }} </li>
+            <li> Contact: {{ user_profile.contact_info }} </li>
+        </ul>
+    </div>
+{% endblock %}

@@ -8,7 +8,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
 
-        <title> {% block title %} {% endblock %} </title>  
+        <title> objekt marketplace </title>  
 
         <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" >
@@ -20,8 +20,17 @@
     <body>
         <!-- header -->
         <header>
-            {% block header %}
-            {% endblock %}
+
+            <h3> objekt marketplace </h3>
+
+            <div class="log-in-info">
+                {% if user.is_authenticated %}
+                    Hello, {{ user.username }}!
+                    <a href="{% url 'logout' %}">Logout</a><br>
+                {% else %}
+                    <a href="{% url 'login' %}">Login Page</a>
+                {% endif %}
+            </div>
         </header>
 
         <!-- navigation -->

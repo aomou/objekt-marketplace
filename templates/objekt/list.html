@@ -2,17 +2,13 @@
 {% load static %}  
 
 {% block title %}
-    All Objekt list
+    Objekt list
 {% endblock %}
 
 <!-- 放子分頁的 css -->
 {% block extra_css %} 
     {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
     <link rel="stylesheet" href="{% static 'list.css' %}">
-{% endblock %}
-
-{% block header %}
-    <h3> objekt marketplace </h3>
 {% endblock %}
 
 
