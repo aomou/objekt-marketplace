@@ -15,8 +15,8 @@
         <br>
         {% if profile_created %}
             <div class="banner">已為你建立 Profile，請補齊資料</div>
-        {% elif not profile.wallet_address or not profile.contact_info %}
-            <div class="banner"> ⚠️ 未填寫 profile，補齊可解鎖更多功能 📝</div>
+        {% elif not user_profile.wallet_address or not user_profile.contact_info %}
+            <div class="banner"> ⚠️ 未填寫 Profile，補齊可解鎖更多功能 📝</div>
         {% endif %}
     </div>
     <div class="user-info">
