@@ -89,9 +89,9 @@ DATABASES = {
 }
 
 # Login / Logout
-LOGIN_URL = '/login/'
-LOGIN_REDIRECT_URL = '/accounts/info/'
-LOGOUT_REDIRECT_URL = '/objekt/'
+LOGIN_URL = 'login'       # 用 /絕對路徑 或 用我在 urls 自己命名的
+LOGIN_REDIRECT_URL = 'account_info'
+LOGOUT_REDIRECT_URL = 'card_list'
 
 
 # Password validation
