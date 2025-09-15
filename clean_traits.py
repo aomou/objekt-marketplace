@@ -1,5 +1,5 @@
 '''
-清理 objekt traits json 資料
+清理 objekt traits json 資料並匯入
 
 1. 從本地端讀取檔案 / cosmo api 取得 json 
 2. 清理資料
@@ -17,7 +17,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 from django.db import transaction
-from apps.objekt.models import Collection, Class, Artist, Member, ObjektCard, ObjektType
+from apps.objekt.models import Collection, Class, Artist, Member, Season, ObjektCard, ObjektType
 
 # 讀取檔案
 # 1) request from cosmo api 
@@ -39,14 +39,16 @@ collections = sorted(traits.get('Collection', []))
 classes = traits.get('Class', [])
 artists = traits.get('Artist', [])
 members = traits.get('Member', [])
+seasons = traits.get('Season', [])
 
-created = {'collection': 0, 'class': 0, 'artist': 0, 'member': 0}  # 記錄新加入的數量
+created = {'collection': 0, 'class': 0, 'artist': 0, 'member': 0, 'season': 0}  # 記錄新加入的數量
 
 # 如果要重新匯入可先刪掉舊的
 # Collection.objects.all().delete()
 # Class.objects.all().delete()
 # Artist.objects.all().delete()
 # Member.objects.all().delete()
+# Season.objects.all().delete()
 
 
 # 寫入資料
@@ -93,12 +95,19 @@ with transaction.atomic():
     for member in members:
         obj, is_new = Member.objects.update_or_create(
             name = member,
-            # 其他欄位之後再手動填
+            # 其他欄位之後再手動填 -> 或是先建立好一個 mapping 表
         )
         if is_new: created['member'] += 1
 
-    # season
-
+    # # season
+    # for season in seasons:
+    #     obj, is_new = Season.objects.update_or_create(
+    #         name = season,
+    #         seasonPrefix = ''.join(ch for ch in str(name) if not ch.isdigit()),
+    #         seasonNum = ''.join(ch for ch in str(name) if ch.isdigit()),
+    #         # 其他欄位之後再手動填 -> 或是先建立好一個 mapping 表
+    #     )
+    #     if is_new: created['member'] += 1
     
 
 print('Done.', created)
