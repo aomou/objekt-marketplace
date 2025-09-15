@@ -66,7 +66,7 @@ with transaction.atomic():
         # 先查詢有沒有此 name，有查到就回傳 is_new = False，沒有就新增 is_new=T
         obj, is_new = Collection.objects.update_or_create( 
             name = name,
-            defaults = {
+            defaults = {   # defaults 跟直接指定的差別？
                 'collection_number': collection_number,
                 'collection_suffix': suffix,
                 'physical': is_physical,
@@ -99,15 +99,16 @@ with transaction.atomic():
         )
         if is_new: created['member'] += 1
 
-    # # season
-    # for season in seasons:
-    #     obj, is_new = Season.objects.update_or_create(
-    #         name = season,
-    #         seasonPrefix = ''.join(ch for ch in str(name) if not ch.isdigit()),
-    #         seasonNum = ''.join(ch for ch in str(name) if ch.isdigit()),
-    #         # 其他欄位之後再手動填 -> 或是先建立好一個 mapping 表
-    #     )
-    #     if is_new: created['member'] += 1
+    # season
+    for season in seasons:
+        obj, is_new = Season.objects.update_or_create(
+            name = season,
+            artist = Artist.objects.get(name='tripleS'),  # 先暫時寫
+            seasonPrefix = ''.join(ch for ch in str(name) if not ch.isdigit()),
+            seasonNum = ''.join(ch for ch in str(name) if ch.isdigit()),
+            # 其他欄位之後再手動填 -> 或是先建立好一個 mapping 表
+        )
+        if is_new: created['season'] += 1
     
 
 print('Done.', created)

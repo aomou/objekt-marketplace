@@ -46,7 +46,7 @@ class Member(models.Model):
 
 class Season(models.Model):
     name = models.CharField(max_length=50, primary_key=True)
-    shortname = models.CharField(max_length=50, blank=True)
+    shortname = models.CharField(max_length=50, blank=True, null=True)
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT, blank=True) 
     startDate = models.DateField(null=True, blank=True)
     endDate = models.DateField(null=True, blank=True)
@@ -61,7 +61,7 @@ class Season(models.Model):
         return self.name
     
 class Class(models.Model):
-    name = models.CharField(max_length=50) # PK
+    name = models.CharField(max_length=50, primary_key=True) # PK
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT, null=True) # blank=True, 
     startNum = models.IntegerField(null=True) # blank=True, 
 
