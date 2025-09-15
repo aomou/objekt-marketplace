@@ -13,20 +13,23 @@
 
 
 {% block content %}
-    <div class="user-info">
-        <div class="profile-check">
-            {% if profile_created %}
-                <div class="banner">已為你建立 Profile，請補齊資料</div>
-            {% elif not profile.wallet_address or not profile.contact_info %}
-                <div class="banner">未填寫 profile，補齊可解鎖更多功能</div>
-            {% endif %}
-        </div>
-
-        <h3> My Account info </h3>
-        <p> username: {{ username }} </p>
-        {% if request.user.email %}
-            <p> email: {{ request.user.email }} </p>
+    <div class="profile-check">
+        <br>
+        {% if profile_created %}
+            <div class="banner">已為你建立 Profile，請補齊資料</div>
+        {% elif not profile.wallet_address or not profile.contact_info %}
+            <div class="banner"> ⚠️ 未填寫 profile，補齊可解鎖更多功能 📝</div>
         {% endif %}
+    </div>
+    <div class="user-info">
+        <h2> My Account info </h2>
+        <!-- 改成用 table ? -->
+        <ul>
+            <li> Username: {{ username }} </li>
+            {% if request.user.email %}
+            <li> Email: {{ request.user.email }} </li>
+            {% endif %}
+        </ul>
         <ul>
             <li> Wallet: {{ user_profile.wallet_address }} </li>
             <li> Contact: {{ user_profile.contact_info }} </li>

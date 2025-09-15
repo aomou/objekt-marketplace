@@ -1,0 +1,10 @@
+.profile-check div {
+    padding: 5px;
+    text-align: center;
+}
+
+.user-info ul {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+
+}

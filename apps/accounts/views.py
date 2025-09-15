@@ -14,7 +14,7 @@ def account_info(request):
         user = request.user,
         defaults = {
             'wallet_address': '',
-            'Contact info': '',
+            'contact_info': '',
         }
     )
 
