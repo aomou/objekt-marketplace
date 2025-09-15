@@ -20,7 +20,7 @@ def account_info(request):
 
     # todo 帶入擁有的 objekt or list
     # example 
-    # owned_list = CartList.objects.filter(owner=request.user).order_by('created_at')
+    # owned_list = ObjektList.objects.filter(owner=request.user).order_by('created_at')
 
     context = {
         'username': request.user.username,
