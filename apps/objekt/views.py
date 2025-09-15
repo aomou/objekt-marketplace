@@ -32,21 +32,22 @@ def filtered_objekt_type(request):
     objektFilter = ObjektTypeFilter(request.GET, queryset=objekts)  # queryset 搜尋的範圍
     
     # sort
-    sort_by = request.GET.get('sort_by', 'season__name') # 預設用 season 排序
-    sort_secondary = request.GET.get('sort_secondary', '') # 次要排序
-    order = request.GET.get('order', 'asc')  # 預設 ascending
+    sort_by = request.GET.get('sort_by') 
+    sort_secondary = request.GET.get('sort_secondary') # 次要排序
 
-    # 建立排序列表
-    ordering = []
-    if order == 'asc':
-        ordering.append(sort_by)
+    if not sort_by and not sort_secondary:  # 預設值
+        ordering = ['season__name', 'collection__name', 'member__memberNum']
+    else:
+        ordering = []
+        if sort_by:
+            ordering.append(sort_by)
         if sort_secondary:
             ordering.append(sort_secondary)
-    else:
-        ordering.append(f'-{sort_by}')
-        if sort_secondary:
-            ordering.append(f'-{sort_secondary}')
-    
+
+    order = request.GET.get('order', 'asc')  # asc / desc
+    if order == 'desc':
+        ordering = [f'-{field}' for field in ordering]
+
     sorted_qs = objektFilter.qs.order_by(*ordering)
 
     context = {
