@@ -32,7 +32,7 @@ def filtered_objekt_type(request):
     objektFilter = ObjektTypeFilter(request.GET, queryset=objekts)  # queryset 搜尋的範圍
     
     # sort
-    sort_by = request.GET.get('sort_by', 'season') # 預設用 season 排序
+    sort_by = request.GET.get('sort_by', 'season__name') # 預設用 season 排序
     sort_secondary = request.GET.get('sort_secondary', '') # 次要排序
     order = request.GET.get('order', 'asc')  # 預設 ascending
 
