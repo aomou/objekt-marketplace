@@ -13,6 +13,6 @@ class ObjektList(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return ObjektList.name
+        return f"{ObjektList.name}"
 
 # TODO 用 ObjektListItems 記錄 Objekt 和 ObjektList 之間的關係和 price

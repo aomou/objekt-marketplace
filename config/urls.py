@@ -28,5 +28,5 @@ urlpatterns = [
     path('logout/', LogoutView.as_view(next_page='card_list'), name='logout'),
     path('objekt/', include('apps.objekt.urls')),
     path('accounts/', include('apps.accounts.urls')),
-    #path('marketplace/', include('apps.marketplace.urls')),
+    path('marketplace/', include('apps.marketplace.urls')),
 ]
