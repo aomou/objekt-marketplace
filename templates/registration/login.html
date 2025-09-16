@@ -10,21 +10,24 @@
 {% endblock %}
 
 {% block content %}
-    <div class="log-in-area">
-        <form method="POST" action="{% url 'login' %}">
-            {% csrf_token %}
-            <table>
-                <tr>
-                    <td>{{ form.username.label_tag }}</td>
-                    <td>{{ form.username }}</td>
-                </tr>
-                <tr>
-                    <td>{{ form.password.label_tag }}</td>
-                    <td>{{ form.password }}</td>
-                </tr>
-            </table>
-            <input type="submit" value="login">
-        </form>
+    <div class="login-container">
+        <h2> Login </h2>
+        <div class="login-form">
+            <form method="POST" action="{% url 'login' %}">
+                {% csrf_token %}
+                <table>
+                    <tr>
+                        <td>{{ form.username.label_tag }}</td>
+                        <td>{{ form.username }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ form.password.label_tag }}</td>
+                        <td>{{ form.password }}</td>
+                    </tr>
+                </table>
+                <button type="submit" class="login-btn"> Login </button>
+            </form>
+        </div>
     </div>
 
 {% endblock %}

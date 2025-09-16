@@ -1,0 +1,23 @@
+fieldset div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+fieldset div label {
+    width: 25%;
+    flex-shrink: 0;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: medium;
+}
+
+fieldset div input,
+fieldset div textarea {
+    width: 35%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: smaller;
+}

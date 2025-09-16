@@ -22,6 +22,22 @@ code {
     font-size: 0.9em;
 }
 
+button, .btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 15px;
+    background-color: #dde0e2ae;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+
+    transition: 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
+}
+
+button:hover, .btn:hover {
+    background-color: #3e6282;
+    color: white;
+}
+
 /* header */
 
 header {
@@ -43,11 +59,6 @@ header h3:hover {
 
 .log-in-info {
   text-align: right;
-}
-
-.log-in-info a {
-  display: block;
-  padding: 5px;
 }
 
 /* navigation tabs */

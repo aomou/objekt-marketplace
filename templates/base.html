@@ -31,8 +31,10 @@
                     {% csrf_token %}
                         <button class="logout-btn btn" type="submit"> Logout </button> <br>
                     </form>
-                {% else %}                       <!-- 未登入 -->
-                    <a href="{% url 'login' %}"> Login </a>
+                {% else %}                  <!-- 未登入 -->
+                    <form action="{% url 'login' %}">
+                        <button class="btn" type="submit"> Login </button>
+                    </form>
                 {% endif %}
             </div>
         </header>
