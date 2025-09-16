@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} Marketplace {% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'market.css' %}">
+{% endblock %}
+
+
+
+{% block content %}
+
+    <div class="filer-bar">
+        <!-- TODO -->
+    </div>
+
+    <!-- list stats info -->
+    <div class="info-area">
+        <p> 共 {{ all_public_lists | length }} 個列表 </p>
+    </div>
+
+    <!-- display lists -->
+    <div class="display-all-list">
+        {% for plist in all_public_lists %}
+            <div>
+                {{ plist }}
+            </div>
+            <p> 共 {{ plist.objekts.all | length }} 張卡 </p>
+        {% endfor %}
+    </div>
+
+{% endblock %}

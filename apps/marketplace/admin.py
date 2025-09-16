@@ -6,5 +6,5 @@ from .models import ObjektList
 
 
 class ObjektListAdmin(admin.ModelAdmin):
-    list_display = ('name', 'user', 'is_public', 'created_at')
+    list_display = ('name', 'owner', 'is_public', 'created_at')
 admin.site.register(ObjektList, ObjektListAdmin)
