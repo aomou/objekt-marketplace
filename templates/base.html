@@ -26,12 +26,16 @@
 
             <div class="log-in-info">
                 {% if user.is_authenticated %}   <!-- 已登入 -->
-                    Hello, {{ user.username }}!
+                    <p> Hello, {{ user.username }} ! </p>
                     <form method="POST" action="{% url 'logout' %}">
                     {% csrf_token %}
                         <button class="logout-btn btn" type="submit"> Logout </button> <br>
                     </form>
                 {% else %}                  <!-- 未登入 -->
+                    <form action="{% url 'register' %}">
+                        <button class="btn" type="submit"> Sign up </button>
+                    </form>
+
                     <form action="{% url 'login' %}">
                         <button class="btn" type="submit"> Login </button>
                     </form>

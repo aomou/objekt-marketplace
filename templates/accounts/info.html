@@ -28,17 +28,29 @@
         <div class="profile-display">
             <div>
                 <label> Username: </label>
-                <p> {{ username }}  </p>
-                {% if request.user.email %}
+                    <p> {{ username }}  </p>
                 <label> Email: </label>
-                <p> {{ request.user.email }} </p>
+                {% if request.user.email %}
+                    <p> {{ request.user.email }} </p>
+                {% else %}
+                    <p> 還沒填寫 </p>
                 {% endif %}
             </div>
             <div>
+
                 <label> Wallet address: </label>
-                <p> <code> {{ user_profile.wallet_address }} </code> </p>
+                {% if user_profile.wallet_address %}
+                    <p> <code> {{ user_profile.wallet_address }} </code> </p>
+                {% else %}
+                    <p> 還沒填寫 </p>
+                {% endif %}
+
                 <label> Contact info: </label>
-                <p> {{ user_profile.contact_info }} </p>
+                {% if user_profile.contact_info %}
+                    <p> {{ user_profile.contact_info }} </p>
+                {% else %}
+                    <p> 還沒填寫 </p>
+                {% endif %}
             </div>            
         </div> <br>
 

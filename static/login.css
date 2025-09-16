@@ -1,3 +1,9 @@
+fieldset {
+    border-color: #ddd;
+    border-radius: 4px;
+    padding-top: 25px;
+}
+
 fieldset div {
     display: flex;
     align-items: center;
@@ -6,7 +12,7 @@ fieldset div {
 }
 
 fieldset div label {
-    width: 25%;
+    width: 20%;
     flex-shrink: 0;
     text-align: center;
     padding-right: 10px;
@@ -20,4 +26,11 @@ fieldset div textarea {
     border: 1px solid #ddd;
     border-radius: 4px;
     font-size: smaller;
+}
+
+fieldset .helptext {
+    order: 3;    /* 讓 help text 放在 input 後 */
+    font-size: 13px;
+    color: #888;
+    margin-top: 2px;
 }

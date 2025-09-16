@@ -18,10 +18,12 @@ from django.contrib import admin
 from django.urls import include, path
 from django.contrib.auth.views import LoginView, LogoutView  # login logout
 from apps.objekt.views import filtered_objekt_type  # import objekt view
+from apps.accounts import views
 
 urlpatterns = [
     path('', filtered_objekt_type, name='home'),
     path('admin/', admin.site.urls),
+    path('register/', views.register, name='register'),
     path('login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(next_page='card_list'), name='logout'),
     path('objekt/', include('apps.objekt.urls')),
