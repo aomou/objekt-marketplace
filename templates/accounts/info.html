@@ -11,6 +11,7 @@
 
 
 {% block content %}
+    <!-- profile check  -->
     <div class="profile-check">
         <br>
         {% if profile_created %}
@@ -19,18 +20,56 @@
             <div class="banner"> ⚠️ 未填寫 Profile，補齊可解鎖更多功能 📝</div>
         {% endif %}
     </div>
+    
     <div class="user-info">
         <h2> My Account info </h2>
-        <!-- 改成用 table ? -->
-        <ul>
-            <li> Username: {{ username }} </li>
-            {% if request.user.email %}
-            <li> Email: {{ request.user.email }} </li>
+
+        <!-- 已經填寫的資訊 -->
+        <div class="profile-display">
+            <!-- 改成用 table ? -->
+            <ul>
+                <li> Username: <code> {{ username }} </code> </li>
+                {% if request.user.email %}
+                <li> Email: {{ request.user.email }} </li>
+                {% endif %}
+            </ul>
+            <ul>
+                <li> Wallet address: {{ user_profile.wallet_address }} </li>
+                <li> Contact info: {{ user_profile.contact_info }} </li>
+            </ul>            
+        </div> <br>
+
+        <h3> Edit profile </h3>
+        <!-- 填寫警告 -->
+        <div class="profile-msg">
+            {% if messages %}
+                <ul class="messages">
+                    {% for message in messages %}
+                        <li {% if message.tags %} class="{{ message.tags }}" {% endif %}>
+                            {{ message }}
+                        </li>
+                    {% endfor %}
+                </ul>
             {% endif %}
-        </ul>
-        <ul>
-            <li> Wallet: {{ user_profile.wallet_address }} </li>
-            <li> Contact: {{ user_profile.contact_info }} </li>
-        </ul>
+        </div>
+
+        <!-- 修改表單 -->
+        <div class="profile-form">
+            <form method="POST">
+                {% csrf_token %}
+
+                <fieldset>
+                    <legend> User account settings </legend>
+                    {{ user_form.as_table }}
+                </fieldset>
+                <br>
+                <fieldset>
+                <legend> User profile </legend>
+                    {{ profile_form.as_table }}
+                </fieldset>
+                <br>
+                <button type="submit"> Save </button>
+            </form>
+        </div>
     </div>
 {% endblock %}
