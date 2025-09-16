@@ -21,7 +21,7 @@ class ProfileForm(forms.ModelForm):
         widgets = {
             "wallet_address": forms.TextInput(attrs={"placeholder": "0x123456..."}),
             "contact_info": forms.Textarea(attrs={
-                "rows": 5, 
+                "rows": 4, 
                 "placeholder": "Discord username, X id, ..."
                 }),
         }

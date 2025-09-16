@@ -1,10 +1,62 @@
+/* profile-check */
+
 .profile-check div {
     padding: 5px;
     text-align: center;
 }
 
-.user-info ul {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
 
+/*  profile-display  */
+
+.profile-display div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.profile-display div label {
+    width: 15%;
+    flex-shrink: 0;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.profile-display div p {
+    width: 35%;
+    text-align: left;
+}
+
+
+/* profile edit form */
+
+fieldset div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+fieldset div label {
+    width: 25%;
+    flex-shrink: 0;
+    text-align: center;
+    padding-right: 10px;
+    font-weight: medium;
+}
+
+fieldset div input,
+fieldset div textarea {
+    width: 35%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: smaller;
+}
+
+fieldset .helptext {
+    order: 3;    /* 讓 help text 放在 input 後 */
+    font-size: 13px;
+    color: #888;
+    margin-top: 2px;
 }

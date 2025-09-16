@@ -26,17 +26,20 @@
 
         <!-- 已經填寫的資訊 -->
         <div class="profile-display">
-            <!-- 改成用 table ? -->
-            <ul>
-                <li> Username: <code> {{ username }} </code> </li>
+            <div>
+                <label> Username: </label>
+                <p> {{ username }}  </p>
                 {% if request.user.email %}
-                <li> Email: {{ request.user.email }} </li>
+                <label> Email: </label>
+                <p> {{ request.user.email }} </p>
                 {% endif %}
-            </ul>
-            <ul>
-                <li> Wallet address: {{ user_profile.wallet_address }} </li>
-                <li> Contact info: {{ user_profile.contact_info }} </li>
-            </ul>            
+            </div>
+            <div>
+                <label> Wallet address: </label>
+                <p> <code> {{ user_profile.wallet_address }} </code> </p>
+                <label> Contact info: </label>
+                <p> {{ user_profile.contact_info }} </p>
+            </div>            
         </div> <br>
 
         <h3> Edit profile </h3>
@@ -60,12 +63,12 @@
 
                 <fieldset>
                     <legend> User account settings </legend>
-                    {{ user_form.as_table }}
+                    {{ user_form.as_div }}
                 </fieldset>
                 <br>
                 <fieldset>
                 <legend> User profile </legend>
-                    {{ profile_form.as_table }}
+                    {{ profile_form.as_div }}
                 </fieldset>
                 <br>
                 <button type="submit"> Save </button>
