@@ -26,7 +26,7 @@
 
             <div class="log-in-info">
                 {% if user.is_authenticated %}   <!-- 已登入 -->
-                    <p> Hello, {{ user.username }} ! </p>
+                    <p> Hello, <i> {{ user.username }} </i> ! </p>
                     <form method="POST" action="{% url 'logout' %}">
                     {% csrf_token %}
                         <button class="logout-btn btn" type="submit"> Logout </button> <br>

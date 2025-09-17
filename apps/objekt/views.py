@@ -36,7 +36,7 @@ def filtered_objekt_type(request):
     sort_secondary = request.GET.get('sort_secondary') # 次要排序
 
     if not sort_by and not sort_secondary:  # 預設值
-        ordering = ['season__name', 'collection__name', 'member__memberNum']
+        ordering = ['season__seasonNum', 'season__seasonPrefix', 'collection__name', 'member__memberNum']
     else:
         ordering = []
         if sort_by:

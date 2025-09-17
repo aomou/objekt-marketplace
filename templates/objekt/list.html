@@ -46,10 +46,12 @@
                 <option value="collection__name" {% if request.GET.sort_secondary == 'collection__name' %}selected{% endif %}> Collection </option>
             </select>
             
-            <select id="order-select" name="order" onchange="this.form.submit()">
-                <option value="asc" {% if request.GET.order == 'asc' %}selected{% endif %}> Ascending ↑ </option>
-                <option value="desc" {% if request.GET.order == 'desc' %}selected{% endif %}> Descending ↓ </option>
-            </select>
+            <button type="submit" name="order" value="{% if request.GET.order == 'desc' %}asc{% else %}desc{% endif %}">
+                {% if request.GET.order == 'desc' %} Ascending ↑ {% else %}  Descending ↓ {% endif %}
+            </button>
+            <!-- 保留其他 sort 參數 -->
+             <input type="hidden" name="sort_by" value="{{ request.GET.sort_by }}">
+             <input type="hidden" name="sort_secondary" value="{{ request.GET.sort_secondary }}">
         </form>
     </div>
 

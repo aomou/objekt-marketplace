@@ -7,7 +7,7 @@ admin.site.register([Artist, Class, ObjektCard, ObjektType])
 # 設定後台顯示的欄位
 # Member
 class MemberAdmin(admin.ModelAdmin):
-    list_display = ('name', 'artist', 'memberCode')
+    list_display = ('name', 'artist', 'memberCode', 'memberNum')
 admin.site.register(Member, MemberAdmin)
 
 # Collection
@@ -17,5 +17,5 @@ admin.site.register(Collection, CollectionAdmin)
 
 # Season
 class SeasonAdmin(admin.ModelAdmin):
-    list_display = ('name', 'artist')
+    list_display = ('name', 'artist', 'seasonPrefix', 'seasonNum')
 admin.site.register(Season, SeasonAdmin)
