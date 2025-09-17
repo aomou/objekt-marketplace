@@ -25,11 +25,11 @@
     <!-- display lists -->
     <div class="display-all-list">
         {% for plist in all_public_lists %}
-            <div>
-                {{ plist }}
-            </div>
-            <p> 共 {{ plist.objekts.all | length }} 張卡 </p>
-        {% endfor %}
+            <span class="display-one-list">
+                <div> {{ plist }} </div>
+                <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
+            </span>
+        {% endfor %} 
     </div>
 
 {% endblock %}
