@@ -27,6 +27,12 @@
         {% for plist in mylists %}
             <span class="display-one-list">
                 <div> {{ plist.name }} </div>
+                <div class="crud-btn">
+                    <!-- 要寫成 button 還是 a link ??? -->
+                    <a href="{% url 'create_list' %}" class="c-btn"> Create list ➕ </a>
+                    <a href="{% url 'update_list' %}" class="u-btn"> Update list ➕ </a>
+                    <a href="{% url 'delete_list' %}" class="d-btn"> Delete list ➕ </a>
+                </div>
                 <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
             </span>
         {% endfor %} 
