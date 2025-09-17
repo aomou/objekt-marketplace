@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} 
+    {% if form.instance.pk  %}
+        Update List
+    {% else %}
+        Create List
+    {% endif %}
+{% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'mylists.css' %}">
+{% endblock %}
+
+
+
+{% block content %}
+
+    <!-- lists form -->
+    <div class="create-update-list-form">
+        <form method="POST">
+            {% csrf_token %}
+            {{ form.as_div }}
+            <button type="submit"> Save </button>
+        </form>
+    </div>
+
+{% endblock %}

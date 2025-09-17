@@ -1,0 +1,29 @@
+[
+{
+  "model": "accounts.userprofile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "wallet_address": "0x6c62364A42475Ef38D4475B80C5A39cAddDF9042",
+    "contact_info": "DC: @Aomou"
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "wallet_address": "",
+    "contact_info": ""
+  }
+},
+{
+  "model": "accounts.userprofile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "wallet_address": "",
+    "contact_info": ""
+  }
+}
+]

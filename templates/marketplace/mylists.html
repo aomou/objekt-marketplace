@@ -23,15 +23,21 @@
     </div>
 
     <!-- display lists -->
+
     <div class="display-all-list">
+        <!-- btn: 新增列表 -->
+        <a href="{% url 'create_list' %}" class="c-btn"> Create list </a>
+
         {% for plist in mylists %}
             <span class="display-one-list">
                 <div> {{ plist.name }} </div>
                 <div class="crud-btn">
                     <!-- 要寫成 button 還是 a link ??? -->
-                    <a href="{% url 'create_list' %}" class="c-btn"> Create list ➕ </a>
-                    <a href="{% url 'update_list' %}" class="u-btn"> Update list ➕ </a>
-                    <a href="{% url 'delete_list' %}" class="d-btn"> Delete list ➕ </a>
+                    <a href="{% url 'update_list' pk=plist.pk %}" class="u-btn"> Update list </a>
+                    <form method="post" action="{% url 'delete_list' pk=plist.pk %}" onsubmit="return confirm('確定要刪除這個清單嗎？');">
+                        {% csrf_token %}
+                        <button type="submit"> 刪除 </button>
+                    </form>
                 </div>
                 <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
             </span>

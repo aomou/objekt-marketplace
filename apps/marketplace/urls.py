@@ -8,6 +8,6 @@ urlpatterns = [
    path("market/", views.marketplace, name="market"), 
    path("mylists/", ObjektListView.as_view(), name="mylists"), 
    path('mylists/create/', CreateListView.as_view(), name='create_list'), 
-   path('mylists/update/', UpdateListView.as_view(), name='update_list'), 
-   path('mylists/delete/', DeleteListView.as_view(), name='delete_list'), 
+   path('mylists/update/<int:pk>', UpdateListView.as_view(), name='update_list'), 
+   path('mylists/delete/<int:pk>', DeleteListView.as_view(), name='delete_list'), 
 ]

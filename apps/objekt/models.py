@@ -61,7 +61,7 @@ class Season(models.Model):
         return self.name
     
 class Class(models.Model):
-    name = models.CharField(max_length=50, primary_key=True) # PK
+    name = models.CharField(max_length=50)
     artist = models.ForeignKey(Artist, on_delete=models.PROTECT, null=True) # blank=True, 
     startNum = models.IntegerField(null=True) # blank=True, 
 

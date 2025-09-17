@@ -1,0 +1,3154 @@
+[
+{
+  "model": "objekt.artist",
+  "pk": "ARTMS",
+  "fields": {
+    "tokenId": 2,
+    "sex": "F"
+  }
+},
+{
+  "model": "objekt.artist",
+  "pk": "idntt",
+  "fields": {
+    "tokenId": 3,
+    "sex": "M"
+  }
+},
+{
+  "model": "objekt.artist",
+  "pk": "tripleS",
+  "fields": {
+    "tokenId": 1,
+    "sex": "F"
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "ChaeWon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S21",
+    "memberNum": 21
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "ChaeYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S4",
+    "memberNum": 4
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Choerry",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "DaHyun",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S10",
+    "memberNum": 10
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "DoHun",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HaSeul",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "3",
+    "memberNum": 3
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HaYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S19",
+    "memberNum": 19
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HeeJin",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HeeJu",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id2",
+    "memberNum": 2
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HwanHee",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HyeRin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S2",
+    "memberNum": 2
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JaeYoung",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id5",
+    "memberNum": 5
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiWoo",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S3",
+    "memberNum": 3
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiWoon",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S24",
+    "memberNum": 24
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JinSoul",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JooBin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S18",
+    "memberNum": 18
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JuHo",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Kaede",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S9",
+    "memberNum": 9
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "KimLip",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Kotone",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S11",
+    "memberNum": 11
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Lynn",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S17",
+    "memberNum": 17
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Mayu",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S16",
+    "memberNum": 16
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "NaKyoung",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Nien",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S13",
+    "memberNum": 13
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SeoAh",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S23",
+    "memberNum": 23
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SeoYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "ShiOn",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S20",
+    "memberNum": 20
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SoHyun",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S14",
+    "memberNum": 14
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SooMin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Sullin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S22",
+    "memberNum": 22
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "TaeIn",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id4",
+    "memberNum": 4
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Xinyu",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S15",
+    "memberNum": 15
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YeonJi",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S12",
+    "memberNum": 12
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YooYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S5",
+    "memberNum": 5
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YuBin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id2",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id4",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id4",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id6 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id6 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id7 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "idntt",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "tripleS",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Atom01",
+  "fields": {
+    "shortname": "A",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Atom",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Atom02",
+  "fields": {
+    "shortname": "AA",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Atom",
+    "seasonNum": 2
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Binary01",
+  "fields": {
+    "shortname": "B",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Binary",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Cream01",
+  "fields": {
+    "shortname": "C",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Cream",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Divine01",
+  "fields": {
+    "shortname": "D",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Divine",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Ever01",
+  "fields": {
+    "shortname": "E",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Ever",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Spring25",
+  "fields": {
+    "shortname": "sp",
+    "artist": "idntt",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Spring",
+    "seasonNum": 25
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Summer25",
+  "fields": {
+    "shortname": "sm",
+    "artist": "idntt",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Summer",
+    "seasonNum": 25
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 1,
+  "fields": {
+    "name": "Basic",
+    "artist": "idntt",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 2,
+  "fields": {
+    "name": "Double",
+    "artist": "tripleS",
+    "startNum": 3
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 3,
+  "fields": {
+    "name": "Event",
+    "artist": "idntt",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 4,
+  "fields": {
+    "name": "First",
+    "artist": "tripleS",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 5,
+  "fields": {
+    "name": "First",
+    "artist": "ARTMS",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 6,
+  "fields": {
+    "name": "Premier",
+    "artist": "tripleS",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 7,
+  "fields": {
+    "name": "Premier",
+    "artist": "ARTMS",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 8,
+  "fields": {
+    "name": "Special",
+    "artist": "tripleS",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 9,
+  "fields": {
+    "name": "Special",
+    "artist": "ARTMS",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 10,
+  "fields": {
+    "name": "Special",
+    "artist": "idntt",
+    "startNum": 3
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 11,
+  "fields": {
+    "name": "Unit",
+    "artist": "idntt",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 12,
+  "fields": {
+    "name": "Welcome",
+    "artist": "tripleS",
+    "startNum": 100
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 13,
+  "fields": {
+    "name": "Welcome",
+    "artist": "ARTMS",
+    "startNum": 100
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 14,
+  "fields": {
+    "name": "Zero",
+    "artist": null,
+    "startNum": null
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "000Z",
+  "fields": {
+    "collection_number": "000",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "100Z",
+  "fields": {
+    "collection_number": "100",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "101A",
+  "fields": {
+    "collection_number": "101",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "101Z",
+  "fields": {
+    "collection_number": "101",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "102A",
+  "fields": {
+    "collection_number": "102",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "102Z",
+  "fields": {
+    "collection_number": "102",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "103A",
+  "fields": {
+    "collection_number": "103",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "103Z",
+  "fields": {
+    "collection_number": "103",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "104A",
+  "fields": {
+    "collection_number": "104",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "104Z",
+  "fields": {
+    "collection_number": "104",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "105A",
+  "fields": {
+    "collection_number": "105",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "105Z",
+  "fields": {
+    "collection_number": "105",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "106A",
+  "fields": {
+    "collection_number": "106",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "106Z",
+  "fields": {
+    "collection_number": "106",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "107A",
+  "fields": {
+    "collection_number": "107",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "107Z",
+  "fields": {
+    "collection_number": "107",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "108A",
+  "fields": {
+    "collection_number": "108",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "108Z",
+  "fields": {
+    "collection_number": "108",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "109A",
+  "fields": {
+    "collection_number": "109",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "109Z",
+  "fields": {
+    "collection_number": "109",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "110A",
+  "fields": {
+    "collection_number": "110",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "110Z",
+  "fields": {
+    "collection_number": "110",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "111A",
+  "fields": {
+    "collection_number": "111",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "111Z",
+  "fields": {
+    "collection_number": "111",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "112A",
+  "fields": {
+    "collection_number": "112",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "112Z",
+  "fields": {
+    "collection_number": "112",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "113A",
+  "fields": {
+    "collection_number": "113",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "113Z",
+  "fields": {
+    "collection_number": "113",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "114A",
+  "fields": {
+    "collection_number": "114",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "114Z",
+  "fields": {
+    "collection_number": "114",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "115A",
+  "fields": {
+    "collection_number": "115",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "115Z",
+  "fields": {
+    "collection_number": "115",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "116A",
+  "fields": {
+    "collection_number": "116",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "116Z",
+  "fields": {
+    "collection_number": "116",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "117A",
+  "fields": {
+    "collection_number": "117",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "117Z",
+  "fields": {
+    "collection_number": "117",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "118A",
+  "fields": {
+    "collection_number": "118",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "118Z",
+  "fields": {
+    "collection_number": "118",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "119A",
+  "fields": {
+    "collection_number": "119",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "119Z",
+  "fields": {
+    "collection_number": "119",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "120A",
+  "fields": {
+    "collection_number": "120",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "120Z",
+  "fields": {
+    "collection_number": "120",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "200Z",
+  "fields": {
+    "collection_number": "200",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "201A",
+  "fields": {
+    "collection_number": "201",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "201Z",
+  "fields": {
+    "collection_number": "201",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "202A",
+  "fields": {
+    "collection_number": "202",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "202Z",
+  "fields": {
+    "collection_number": "202",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "203A",
+  "fields": {
+    "collection_number": "203",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "203Z",
+  "fields": {
+    "collection_number": "203",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "204A",
+  "fields": {
+    "collection_number": "204",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "204Z",
+  "fields": {
+    "collection_number": "204",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "205A",
+  "fields": {
+    "collection_number": "205",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "205Z",
+  "fields": {
+    "collection_number": "205",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "206A",
+  "fields": {
+    "collection_number": "206",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "206Z",
+  "fields": {
+    "collection_number": "206",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "207A",
+  "fields": {
+    "collection_number": "207",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "207Z",
+  "fields": {
+    "collection_number": "207",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "208A",
+  "fields": {
+    "collection_number": "208",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "208Z",
+  "fields": {
+    "collection_number": "208",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "209A",
+  "fields": {
+    "collection_number": "209",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "209Z",
+  "fields": {
+    "collection_number": "209",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "210A",
+  "fields": {
+    "collection_number": "210",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "210Z",
+  "fields": {
+    "collection_number": "210",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "211A",
+  "fields": {
+    "collection_number": "211",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "211Z",
+  "fields": {
+    "collection_number": "211",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "212A",
+  "fields": {
+    "collection_number": "212",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "212Z",
+  "fields": {
+    "collection_number": "212",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "213A",
+  "fields": {
+    "collection_number": "213",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "213Z",
+  "fields": {
+    "collection_number": "213",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "214A",
+  "fields": {
+    "collection_number": "214",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "214Z",
+  "fields": {
+    "collection_number": "214",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "215A",
+  "fields": {
+    "collection_number": "215",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "215Z",
+  "fields": {
+    "collection_number": "215",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "216A",
+  "fields": {
+    "collection_number": "216",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "216Z",
+  "fields": {
+    "collection_number": "216",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "217A",
+  "fields": {
+    "collection_number": "217",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "217Z",
+  "fields": {
+    "collection_number": "217",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "218A",
+  "fields": {
+    "collection_number": "218",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "218Z",
+  "fields": {
+    "collection_number": "218",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "219A",
+  "fields": {
+    "collection_number": "219",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "219Z",
+  "fields": {
+    "collection_number": "219",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "220A",
+  "fields": {
+    "collection_number": "220",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "220Z",
+  "fields": {
+    "collection_number": "220",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "221A",
+  "fields": {
+    "collection_number": "221",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "221Z",
+  "fields": {
+    "collection_number": "221",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "222Z",
+  "fields": {
+    "collection_number": "222",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "223Z",
+  "fields": {
+    "collection_number": "223",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "224Z",
+  "fields": {
+    "collection_number": "224",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "225Z",
+  "fields": {
+    "collection_number": "225",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "301A",
+  "fields": {
+    "collection_number": "301",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "301Z",
+  "fields": {
+    "collection_number": "301",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "302A",
+  "fields": {
+    "collection_number": "302",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "302Z",
+  "fields": {
+    "collection_number": "302",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "303A",
+  "fields": {
+    "collection_number": "303",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "303Z",
+  "fields": {
+    "collection_number": "303",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "304A",
+  "fields": {
+    "collection_number": "304",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "304Z",
+  "fields": {
+    "collection_number": "304",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "305A",
+  "fields": {
+    "collection_number": "305",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "305Z",
+  "fields": {
+    "collection_number": "305",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "306A",
+  "fields": {
+    "collection_number": "306",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "306Z",
+  "fields": {
+    "collection_number": "306",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "307A",
+  "fields": {
+    "collection_number": "307",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "307Z",
+  "fields": {
+    "collection_number": "307",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "308A",
+  "fields": {
+    "collection_number": "308",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "308Z",
+  "fields": {
+    "collection_number": "308",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "309A",
+  "fields": {
+    "collection_number": "309",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "309Z",
+  "fields": {
+    "collection_number": "309",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "310A",
+  "fields": {
+    "collection_number": "310",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "310Z",
+  "fields": {
+    "collection_number": "310",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "311A",
+  "fields": {
+    "collection_number": "311",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "311Z",
+  "fields": {
+    "collection_number": "311",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "312A",
+  "fields": {
+    "collection_number": "312",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "312Z",
+  "fields": {
+    "collection_number": "312",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "313A",
+  "fields": {
+    "collection_number": "313",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "313Z",
+  "fields": {
+    "collection_number": "313",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "314A",
+  "fields": {
+    "collection_number": "314",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "314Z",
+  "fields": {
+    "collection_number": "314",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "315A",
+  "fields": {
+    "collection_number": "315",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "315Z",
+  "fields": {
+    "collection_number": "315",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "316A",
+  "fields": {
+    "collection_number": "316",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "316Z",
+  "fields": {
+    "collection_number": "316",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "317Z",
+  "fields": {
+    "collection_number": "317",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "318Z",
+  "fields": {
+    "collection_number": "318",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "319Z",
+  "fields": {
+    "collection_number": "319",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "320Z",
+  "fields": {
+    "collection_number": "320",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "321Z",
+  "fields": {
+    "collection_number": "321",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "322A",
+  "fields": {
+    "collection_number": "322",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "322Z",
+  "fields": {
+    "collection_number": "322",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "323A",
+  "fields": {
+    "collection_number": "323",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "323Z",
+  "fields": {
+    "collection_number": "323",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "324A",
+  "fields": {
+    "collection_number": "324",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "324Z",
+  "fields": {
+    "collection_number": "324",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "325A",
+  "fields": {
+    "collection_number": "325",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "325Z",
+  "fields": {
+    "collection_number": "325",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "326A",
+  "fields": {
+    "collection_number": "326",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "326Z",
+  "fields": {
+    "collection_number": "326",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "327A",
+  "fields": {
+    "collection_number": "327",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "327Z",
+  "fields": {
+    "collection_number": "327",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "328A",
+  "fields": {
+    "collection_number": "328",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "328Z",
+  "fields": {
+    "collection_number": "328",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "329Z",
+  "fields": {
+    "collection_number": "329",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "330A",
+  "fields": {
+    "collection_number": "330",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "330Z",
+  "fields": {
+    "collection_number": "330",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "331A",
+  "fields": {
+    "collection_number": "331",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "331Z",
+  "fields": {
+    "collection_number": "331",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "332A",
+  "fields": {
+    "collection_number": "332",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "332Z",
+  "fields": {
+    "collection_number": "332",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "333Z",
+  "fields": {
+    "collection_number": "333",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "334A",
+  "fields": {
+    "collection_number": "334",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "334Z",
+  "fields": {
+    "collection_number": "334",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "335Z",
+  "fields": {
+    "collection_number": "335",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "336A",
+  "fields": {
+    "collection_number": "336",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "336Z",
+  "fields": {
+    "collection_number": "336",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "337A",
+  "fields": {
+    "collection_number": "337",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "337Z",
+  "fields": {
+    "collection_number": "337",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "338Z",
+  "fields": {
+    "collection_number": "338",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "339A",
+  "fields": {
+    "collection_number": "339",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "339Z",
+  "fields": {
+    "collection_number": "339",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "340Z",
+  "fields": {
+    "collection_number": "340",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "341Z",
+  "fields": {
+    "collection_number": "341",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "342A",
+  "fields": {
+    "collection_number": "342",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "342Z",
+  "fields": {
+    "collection_number": "342",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "343A",
+  "fields": {
+    "collection_number": "343",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "343Z",
+  "fields": {
+    "collection_number": "343",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "344A",
+  "fields": {
+    "collection_number": "344",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "344Z",
+  "fields": {
+    "collection_number": "344",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "345A",
+  "fields": {
+    "collection_number": "345",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "345Z",
+  "fields": {
+    "collection_number": "345",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "346A",
+  "fields": {
+    "collection_number": "346",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "346Z",
+  "fields": {
+    "collection_number": "346",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "347A",
+  "fields": {
+    "collection_number": "347",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "347Z",
+  "fields": {
+    "collection_number": "347",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "348A",
+  "fields": {
+    "collection_number": "348",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "348Z",
+  "fields": {
+    "collection_number": "348",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "349A",
+  "fields": {
+    "collection_number": "349",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "349Z",
+  "fields": {
+    "collection_number": "349",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "350A",
+  "fields": {
+    "collection_number": "350",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "350Z",
+  "fields": {
+    "collection_number": "350",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "351A",
+  "fields": {
+    "collection_number": "351",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "351Z",
+  "fields": {
+    "collection_number": "351",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "352A",
+  "fields": {
+    "collection_number": "352",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "352Z",
+  "fields": {
+    "collection_number": "352",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "353Z",
+  "fields": {
+    "collection_number": "353",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "354Z",
+  "fields": {
+    "collection_number": "354",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "355Z",
+  "fields": {
+    "collection_number": "355",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "356Z",
+  "fields": {
+    "collection_number": "356",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "357Z",
+  "fields": {
+    "collection_number": "357",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "358Z",
+  "fields": {
+    "collection_number": "358",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "359Z",
+  "fields": {
+    "collection_number": "359",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "401A",
+  "fields": {
+    "collection_number": "401",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "401Z",
+  "fields": {
+    "collection_number": "401",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "402Z",
+  "fields": {
+    "collection_number": "402",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 1,
+  "fields": {
+    "artist": "tripleS",
+    "member": "JiWoo",
+    "season": "Atom01",
+    "objekt_class": 1,
+    "collection": "100Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/bd31d000-fa7b-4518-dd27-58cde1faf200/3x",
+    "updated_at": "2025-09-15T02:36:00.655Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 2,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "103A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/69e984f9-227e-4969-c8d2-cb65a5168500/3x",
+    "updated_at": "2025-09-15T02:36:00.656Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 3,
+  "fields": {
+    "artist": "tripleS",
+    "member": "ChaeYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "101A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/9c0653a0-0823-4350-eea1-d32f64ec5100/3x",
+    "updated_at": "2025-09-15T02:36:00.657Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 4,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Binary01",
+    "objekt_class": 2,
+    "collection": "325Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/762171f0-673c-491f-c268-035df7dc4400/4x",
+    "updated_at": "2025-09-15T02:36:00.658Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 5,
+  "fields": {
+    "artist": "tripleS",
+    "member": "YeonJi",
+    "season": "Binary01",
+    "objekt_class": 4,
+    "collection": "106Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/82fe5c15-d8f3-4a59-f476-656d54f66200/4x",
+    "updated_at": "2025-09-15T02:36:00.658Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 6,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Kotone",
+    "season": "Cream01",
+    "objekt_class": 2,
+    "collection": "310Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/81ac074c-c62f-4a8e-fb03-59ecd9d85100/4x",
+    "updated_at": "2025-09-15T02:36:00.659Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 7,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Xinyu",
+    "season": "Cream01",
+    "objekt_class": 4,
+    "collection": "103Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/160a6084-7401-446f-038b-e1b84aef3b00/4x",
+    "updated_at": "2025-09-15T02:36:00.659Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 8,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Nien",
+    "season": "Divine01",
+    "objekt_class": 2,
+    "collection": "334A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a91d071d-6da3-469c-50bb-a974e5196c00/4x",
+    "updated_at": "2025-09-15T02:36:00.660Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 9,
+  "fields": {
+    "artist": "tripleS",
+    "member": "ShiOn",
+    "season": "Ever01",
+    "objekt_class": 2,
+    "collection": "321Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/70ecb7cc-b617-40e6-e3f6-8a061c217a00/original",
+    "updated_at": "2025-09-15T02:36:00.661Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 10,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "KimLip",
+    "season": "Cream01",
+    "objekt_class": 5,
+    "collection": "104Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/d5f042af-77ea-4896-9af8-9035701ee100/4x",
+    "updated_at": "2025-09-15T02:36:00.661Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 11,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Kotone",
+    "season": "Atom02",
+    "objekt_class": 4,
+    "collection": "103Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/bff0369c-26ff-4646-f795-9de5ee0faf00/original",
+    "updated_at": "2025-09-15T02:36:00.662Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 12,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Mayu",
+    "season": "Ever01",
+    "objekt_class": 4,
+    "collection": "114Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/63d11bdb-8a26-4786-b7ae-3470461fce00/original",
+    "updated_at": "2025-09-15T02:36:00.663Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 13,
+  "fields": {
+    "artist": "tripleS",
+    "member": "JiWoo",
+    "season": "Divine01",
+    "objekt_class": 4,
+    "collection": "120Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/49f976f3-71bb-4aaf-ec28-85843ae20c00/4x",
+    "updated_at": "2025-09-15T02:36:00.663Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 14,
+  "fields": {
+    "artist": "tripleS",
+    "member": "JiYeon",
+    "season": "Atom02",
+    "objekt_class": 2,
+    "collection": "341Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/3c8afeac-5f20-4614-77e9-eb4429e57600/original",
+    "updated_at": "2025-09-15T02:36:00.664Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 15,
+  "fields": {
+    "artist": "idntt",
+    "member": "DoHun",
+    "season": "Summer25",
+    "objekt_class": 3,
+    "collection": "210A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/9a29e280-c94b-49b3-359c-4c789831f100/original",
+    "updated_at": "2025-09-15T02:36:00.664Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 16,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "101Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/ed23734e-3909-47c5-351e-575959ffbe00/3x",
+    "updated_at": "2025-09-15T15:06:32.889Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 17,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "102Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/782ef045-001e-4a6b-d0a4-5f401e3f6200/3x",
+    "updated_at": "2025-09-15T15:06:32.890Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 18,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "103Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/0a702d42-3925-4e65-5532-0f6284af7d00/3x",
+    "updated_at": "2025-09-15T15:06:32.891Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 19,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "107Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a78d3591-59ea-4fcf-4656-f04bf4961a00/3x",
+    "updated_at": "2025-09-15T15:06:32.892Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 20,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 4,
+    "collection": "108Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/8f2b4fcd-a7e6-492a-a942-80cc8699c700/3x",
+    "updated_at": "2025-09-15T15:06:32.892Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 21,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Binary01",
+    "objekt_class": 4,
+    "collection": "108Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/23377f4c-bc2f-4585-c9a7-c0e1b65d8500/4x",
+    "updated_at": "2025-09-15T15:06:32.893Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 22,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Binary01",
+    "objekt_class": 4,
+    "collection": "101Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/9c344330-ed87-4919-c4e1-4286b4f45000/4x",
+    "updated_at": "2025-09-15T15:06:32.894Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 23,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Kotone",
+    "season": "Cream01",
+    "objekt_class": 4,
+    "collection": "109Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/c818f9a6-4334-42d2-1879-4b83e570f900/4x",
+    "updated_at": "2025-09-15T15:06:32.894Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 24,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "HeeJin",
+    "season": "Atom01",
+    "objekt_class": 5,
+    "collection": "115Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/b3352062-53ed-43ca-91e1-ef898748da00/4x",
+    "updated_at": "2025-09-15T15:06:32.895Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 25,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "HaSeul",
+    "season": "Divine01",
+    "objekt_class": 5,
+    "collection": "104Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/12c56997-719a-4082-166e-602ab8637700/original",
+    "updated_at": "2025-09-15T15:06:32.896Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 26,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "JinSoul",
+    "season": "Atom01",
+    "objekt_class": 5,
+    "collection": "107Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/10f424b3-3a47-42bd-5227-d60976be9700/4x",
+    "updated_at": "2025-09-15T15:06:32.896Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 27,
+  "fields": {
+    "artist": "idntt",
+    "member": "TaeIn",
+    "season": "Summer25",
+    "objekt_class": 1,
+    "collection": "106Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a5d47c60-2dbe-4c41-96ae-5a98b3da4200/original",
+    "updated_at": "2025-09-15T15:06:32.897Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 28,
+  "fields": {
+    "artist": "tripleS",
+    "member": "YeonJi",
+    "season": "Binary01",
+    "objekt_class": 4,
+    "collection": "116Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a9a9daec-fb01-43e6-862b-77fe7654e500/4x",
+    "updated_at": "2025-09-15T15:06:32.898Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 29,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 8,
+    "collection": "202Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/3fc73696-47f6-4983-d07b-57b80c20b700/4x",
+    "updated_at": "2025-09-15T15:06:32.899Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 30,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Kotone",
+    "season": "Cream01",
+    "objekt_class": 8,
+    "collection": "204Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/da57ec52-6169-443a-be0a-8960215e0a00/4x",
+    "updated_at": "2025-09-15T15:06:32.899Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 31,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "HeeJin",
+    "season": "Atom01",
+    "objekt_class": 9,
+    "collection": "206Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a3316d63-0899-4561-aea1-1f844e7cbf00/4x",
+    "updated_at": "2025-09-15T15:06:32.900Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 32,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "JinSoul",
+    "season": "Binary01",
+    "objekt_class": 9,
+    "collection": "204Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/89d34b47-e882-4dc9-d440-16b51a4b8900/4x",
+    "updated_at": "2025-09-15T15:06:32.901Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 33,
+  "fields": {
+    "artist": "idntt",
+    "member": "HwanHee",
+    "season": "Summer25",
+    "objekt_class": 10,
+    "collection": "301Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/f0f5ef46-02f4-44ef-05ac-586bc9ef0b00/original",
+    "updated_at": "2025-09-15T15:06:32.901Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 34,
+  "fields": {
+    "artist": "idntt",
+    "member": "JaeYoung",
+    "season": "Summer25",
+    "objekt_class": 10,
+    "collection": "301Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/4c852525-9771-488d-e353-eeab96c5dc00/original",
+    "updated_at": "2025-09-15T15:06:32.902Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 35,
+  "fields": {
+    "artist": "tripleS",
+    "member": "HaYeon",
+    "season": "Divine01",
+    "objekt_class": 8,
+    "collection": "204Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/b0dc4e42-b516-4124-e282-71efed55d100/4x",
+    "updated_at": "2025-09-15T15:06:32.903Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 36,
+  "fields": {
+    "artist": "tripleS",
+    "member": "JooBin",
+    "season": "Divine01",
+    "objekt_class": 8,
+    "collection": "203Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/0ddcbfd4-ba99-496b-9c10-069a37c98900/4x",
+    "updated_at": "2025-09-15T15:06:32.903Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 37,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Atom01",
+    "objekt_class": 2,
+    "collection": "335Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/40b15ee4-f862-455d-12c0-e45bb03e9500/4x",
+    "updated_at": "2025-09-15T15:06:32.904Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 38,
+  "fields": {
+    "artist": "tripleS",
+    "member": "Kaede",
+    "season": "Atom01",
+    "objekt_class": 2,
+    "collection": "335Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/6f8e7f31-05d1-4b8d-fcfa-2aae4f654300/4x",
+    "updated_at": "2025-09-15T15:06:32.905Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 39,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "KimLip",
+    "season": "Binary01",
+    "objekt_class": 2,
+    "collection": "315Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/7c0aff45-e7c6-4ad5-33ff-10b044daf800/4x",
+    "updated_at": "2025-09-15T15:06:32.905Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 40,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "Choerry",
+    "season": "Binary01",
+    "objekt_class": 2,
+    "collection": "317Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/d98a0ab3-c7fa-4fbc-4418-dce675dd4700/4x",
+    "updated_at": "2025-09-15T15:06:32.906Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 41,
+  "fields": {
+    "artist": "idntt",
+    "member": "JuHo",
+    "season": "Summer25",
+    "objekt_class": 3,
+    "collection": "205A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/f944a031-12cd-4546-d140-79342be45a00/original",
+    "updated_at": "2025-09-15T15:06:32.907Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 42,
+  "fields": {
+    "artist": "idntt",
+    "member": "HeeJu",
+    "season": "Summer25",
+    "objekt_class": 3,
+    "collection": "213A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/8f2fc004-4b42-494e-fc87-8688e33ffc00/original",
+    "updated_at": "2025-09-15T15:06:32.907Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 43,
+  "fields": {
+    "artist": "idntt",
+    "member": "DoHun",
+    "season": "Summer25",
+    "objekt_class": 3,
+    "collection": "214A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/f90a320a-f5b8-4de1-17d0-2ca37a67c300/original",
+    "updated_at": "2025-09-15T15:06:32.908Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 44,
+  "fields": {
+    "artist": "tripleS",
+    "member": "SeoYeon",
+    "season": "Binary01",
+    "objekt_class": 2,
+    "collection": "310Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/08e44e0f-8191-4bc5-9e31-37aeb7b99000/4x",
+    "updated_at": "2025-09-15T15:06:32.909Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 45,
+  "fields": {
+    "artist": "tripleS",
+    "member": "JooBin",
+    "season": "Divine01",
+    "objekt_class": 2,
+    "collection": "308A",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/192826c0-156d-4218-99d1-68a6460e0b00/4x",
+    "updated_at": "2025-09-15T15:06:32.909Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 46,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "HeeJin",
+    "season": "Atom01",
+    "objekt_class": 13,
+    "collection": "100Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/462cb422-b17a-4f92-2ffe-5d6d08d2ac00/4x",
+    "updated_at": "2025-09-15T15:06:32.910Z"
+  }
+},
+{
+  "model": "objekt.objekttype",
+  "pk": 47,
+  "fields": {
+    "artist": "ARTMS",
+    "member": "KimLip",
+    "season": "Cream01",
+    "objekt_class": 7,
+    "collection": "401Z",
+    "image_uri": "https://imagedelivery.net/qQuMkbHJ-0s6rwu8vup_5w/a5ad4edf-2f21-45cc-e013-1a944d17df00/original",
+    "updated_at": "2025-09-15T15:06:32.911Z"
+  }
+},
+{
+  "model": "objekt.objektcard",
+  "pk": 1,
+  "fields": {
+    "objekt_type": 16,
+    "token_id": 12345,
+    "owner_address": "0x1011111111111",
+    "minted_at": "2025-09-16T07:15:34Z",
+    "last_seen_at": "2025-09-16T07:15:35Z",
+    "updated_at": "2025-09-16T07:15:36.971Z"
+  }
+},
+{
+  "model": "objekt.objektcard",
+  "pk": 2,
+  "fields": {
+    "objekt_type": 11,
+    "token_id": 38525,
+    "owner_address": "0x0249553322",
+    "minted_at": "2025-09-16T07:50:39Z",
+    "last_seen_at": "2025-09-16T07:50:41Z",
+    "updated_at": "2025-09-16T07:50:43.020Z"
+  }
+},
+{
+  "model": "objekt.objektcard",
+  "pk": 3,
+  "fields": {
+    "objekt_type": 23,
+    "token_id": 123345,
+    "owner_address": "0x102398234",
+    "minted_at": "2025-09-16T07:50:55Z",
+    "last_seen_at": "2025-09-16T07:50:57Z",
+    "updated_at": "2025-09-16T07:50:58.391Z"
+  }
+}
+]

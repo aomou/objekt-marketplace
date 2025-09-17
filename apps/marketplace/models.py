@@ -4,9 +4,9 @@ from apps.objekt.models import ObjektType, ObjektCard
 
 
 class ObjektList(models.Model):
-    name = models.CharField(max_length=50, primary_key=True)
+    name = models.CharField(max_length=50)
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='objekt_list')
-    objekts = models.ManyToManyField(ObjektCard, related_name='objekt_list')
+    objekts = models.ManyToManyField(ObjektCard, related_name='objekt_list', blank=True)
     description = models.TextField(blank=True)
     # price = models.DecimalField(decimal_places=2, max_digits=8, null=True, blank=True)
     is_public = models.BooleanField(default=False)
