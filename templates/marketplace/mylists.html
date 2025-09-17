@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} My Lists {% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'mylists.css' %}">
+{% endblock %}
+
+
+
+{% block content %}
+
+    <div class="filer-bar">
+        <!-- TODO -->
+    </div>
+
+    <!-- list stats info -->
+    <div class="info-area">
+        <p> 共 {{ mylists | length }} 個列表 </p>
+    </div>
+
+    <!-- display lists -->
+    <div class="display-all-list">
+        {% for plist in mylists %}
+            <span class="display-one-list">
+                <div> {{ plist.name }} </div>
+                <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
+            </span>
+        {% endfor %} 
+    </div>
+
+{% endblock %}
