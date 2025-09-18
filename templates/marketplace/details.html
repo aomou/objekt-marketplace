@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} My Lists {% endblock %}
+
+<!-- 放子分頁的 css -->
+{% block extra_css %} 
+    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    <link rel="stylesheet" href="{% static 'details.css' %}">
+{% endblock %}
+
+
+
+{% block content %}
+    <div class="back-to-mylists">
+        <a href="{% url 'mylists' %}"> Back to mylists </a>
+    </div>
+    <div class="list-info">
+        <div> <label> list name </label> {{ objektlist.name }} </div>
+        <div> <label> list owner </label> {{ objektlist.owner }} </div>
+        <div> <label> list description </label> {{ objektlist.description }} </div>
+        <div> <label> list created at </label> {{ objektlist.created_at }} </div>
+        <div>
+            {% if objektlist.is_public %}
+                public
+            {% else %} 
+                private
+            {% endif %}
+        </div>
+
+        <div class="list-objekts-display">
+            {% for objekt in objekts %}
+                <div> 
+                    {% if objekt.objekt_type.image_uri %}
+                        <img src="{{ objekt.objekt_type.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
+                    {% endif %}
+                    <div> {{ objekt }} </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+    
+    
+    
+
+    
+{% endblock %}

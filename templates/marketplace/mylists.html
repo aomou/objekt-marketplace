@@ -30,7 +30,7 @@
 
         {% for plist in mylists %}
             <span class="display-one-list">
-                <div> {{ plist.name }} </div>
+                <div> <a href="{% url 'list_details' pk=plist.pk %}"> {{ plist.name }} </a> </div>
                 <div class="crud-btn">
                     <!-- 要寫成 button 還是 a link ??? -->
                     <a href="{% url 'update_list' pk=plist.pk %}" class="u-btn"> Update list </a>
