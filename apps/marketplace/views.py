@@ -7,6 +7,8 @@ from django.contrib.auth.models import User
 from django.views.generic import ListView, DetailView, CreateView, DeleteView, UpdateView
 from django.http import HttpResponseNotAllowed
 from django.contrib import messages
+from django.urls import reverse_lazy
+
 
 # 列出使用者的所有清單 -> 好像沒用到？？
 
@@ -64,7 +66,10 @@ class ObjektListDetailsView(LoginRequiredMixin, DetailView):
 class CreateListView(CreateView):
     model = ObjektList
     form_class = ListEditForm
-    success_url = '/marketplace/mylists'  # 儲存成功後要導向的網址
+
+    # 儲存成功後要導向的網址
+    def get_success_url(self):   
+        return reverse_lazy('list_details', kwargs={'pk': self.object.pk})
 
     def form_valid(self, form):
         obj = form.save(commit=False)  # 拿出來 先不存
@@ -76,7 +81,10 @@ class CreateListView(CreateView):
 class UpdateListView(UpdateView):
     model = ObjektList
     form_class = ListEditForm
-    success_url = '/marketplace/mylists'
+
+    # 儲存成功後要導向的網址
+    def get_success_url(self):  
+        return reverse_lazy('list_details', kwargs={'pk': self.object.pk})
 
     def get_queryset(self):
         return ObjektList.objects.filter(owner=self.request.user).order_by('-created_at')
@@ -84,7 +92,7 @@ class UpdateListView(UpdateView):
 # delete
 class DeleteListView(DeleteView):
     model = ObjektList
-    success_url = '/marketplace/mylists'
+    success_url = '/marketplace/mylists' # 儲存成功後要導向的網址
 
     # 只能刪自己的 list
     def get_queryset(self):

@@ -12,8 +12,9 @@
 
 
 {% block content %}
-    <div class="back-to-mylists">
+    <div class="list-details-links">
         <a href="{% url 'mylists' %}"> Back to mylists </a>
+        <a href="{% url 'update_list' pk=objektlist.pk%}"> Edit list </a>
     </div>
     <div class="list-info">
         <div> <label> list name </label> {{ objektlist.name }} </div>
