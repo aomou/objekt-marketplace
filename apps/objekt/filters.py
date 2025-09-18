@@ -12,7 +12,7 @@ class ObjektTypeFilter(django_filters.FilterSet):
     )
     member = django_filters.ModelChoiceFilter(
         field_name = 'member',
-        queryset = Member.objects.filter(artist__isnull=False).order_by('artist__tokenId', 'memberNum'),
+        queryset = Member.objects.filter(memberCode__isnull=False).order_by('artist__tokenId', 'memberNum'),
         widget = forms.Select(attrs={'onchange': 'this.form.submit()'})
     )
     objekt_class = django_filters.ModelChoiceFilter(
