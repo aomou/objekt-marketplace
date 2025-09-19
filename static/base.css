@@ -22,17 +22,21 @@ code {
     font-size: 0.9em;
 }
 
+
+/* button */
+
 button, .btn {
+    text-decoration: none; 
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px 15px;
     border-radius: 5px;
     line-height: normal;
+    color: #000;
     background-color: #dde0e2ae;
     border: 1px solid #bbb;
     
     cursor: pointer;   /* 滑鼠移過去會變成手指 */
-    text-decoration: none;  /* 移除 a link 的底線 */
     transition: 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
 }
 
@@ -41,88 +45,96 @@ button:hover, .btn:hover {
     color: white;
 }
 
+a.btn {
+    text-decoration: none;  /* 移除 a link 的底線 */
+    display: inline-block;   /* 讓 <a> 表現得像按鈕 */
+    width: auto;             /* 自動依字寬 */
+    text-align: center;      /* 文字置中 */
+    line-height: normal;
+}
+
 /* header */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
 }
 
 header h3 {
-  padding-left: 15px;
-  font-style: italic;
-  color: black;
-  transition: color 0.4s, text-shadow 0.2s;
-  transition-timing-function: ease;
+    padding-left: 15px;
+    font-style: italic;
+    color: black;
+    transition: color 0.4s, text-shadow 0.2s;
+    transition-timing-function: ease;
 }
 
 header h3:hover {
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px #047, 0 0 5px #049;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px #047, 0 0 5px #049;
 }
 
 .log-in-info {
-  display: inline-flex;
-  align-items: center; 
-  gap: 15px;
+    display: inline-flex;
+    align-items: center; 
+    gap: 15px;
 }
 
 /* navigation tabs */
 
 .nav-grid nav {
-  width: 100%;
+    width: 100%;
 }
 
 .nav-grid nav ul {
-  display: flex;
-  justify-content: space-evenly; /* 均勻分布 */
-  gap: 5px;
-  
-  /* 基本重設，確保佈局乾淨 */
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+    display: flex;
+    justify-content: space-evenly; /* 均勻分布 */
+    gap: 5px;
+    
+    /* 基本重設，確保佈局乾淨 */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 .nav-grid nav li {
-  flex: 1;  /* 讓每個 tab 都會一樣寬 */
-  text-align: center;
+    flex: 1;  /* 讓每個 tab 都會一樣寬 */
+    text-align: center;
 }
 
 .nav-grid nav a {
-  display: block;
-  padding: 10px 0px 10px;  /* top right bottom */
-  border-radius: 10px 10px 2px 2px;
-  color: black;
-  background-color: rgba(208, 226, 241, 0.5);
-  text-decoration: none;
-  font-size: 16px;
-  
-  transition: background-color 0.1s, color 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
+    display: block;
+    padding: 10px 0px 10px;  /* top right bottom */
+    border-radius: 10px 10px 2px 2px;
+    color: black;
+    background-color: rgba(208, 226, 241, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+    
+    transition: background-color 0.1s, color 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
 }
 
 .nav-grid nav a:hover {
-  color: white;
-  background-color: #24537D;
+    color: white;
+    background-color: #24537D;
 }
 
 /* footer */
 footer p {
-  /* 1. appearance */
-  background-color: #4881b487;
-  color: white;
-  width: 100%;
-  gap: 2px;
-  padding: 10px 0; /* 增加上下內距，左右為0 */
-  box-sizing: border-box; /* 讓 padding 不會影響總寬高 */
-  margin-top: 30px;
+    /* 1. appearance */
+    background-color: #4881b487;
+    color: white;
+    width: 100%;
+    gap: 2px;
+    padding: 10px 0; /* 增加上下內距，左右為0 */
+    box-sizing: border-box; /* 讓 padding 不會影響總寬高 */
+    margin-top: 30px;
 
-  /* 2. Flexbox  */
-  display: flex;
-  flex-direction: column; /* 讓子項目垂直排列 */
-  justify-content: center; /* 垂直置中 */
-  align-items: center;     /* 水平置中 */
+    /* 2. Flexbox  */
+    display: flex;
+    flex-direction: column; /* 讓子項目垂直排列 */
+    justify-content: center; /* 垂直置中 */
+    align-items: center;     /* 水平置中 */
 }

@@ -5,11 +5,9 @@
 
 <!-- 放子分頁的 css -->
 {% block extra_css %} 
-    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    {{ block.super }} 
     <link rel="stylesheet" href="{% static 'mylists.css' %}">
 {% endblock %}
-
-
 
 {% block content %}
 
@@ -26,20 +24,20 @@
 
     <div class="display-all-list">
         <!-- btn: 新增列表 -->
-        <a href="{% url 'create_list' %}" class="c-btn"> Create list </a>
+        <a href="{% url 'create_list' %}" class="btn"> Create list </a>
 
         {% for plist in mylists %}
             <span class="display-one-list">
-                <div> <a href="{% url 'list_details' pk=plist.pk %}"> {{ plist.name }} </a> </div>
+                <div> <a href="{% url 'list_details' pk=plist.pk %}" class="list-name-link"> {{ plist.name }} </a> </div>
+                <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
                 <div class="crud-btn">
                     <!-- 要寫成 button 還是 a link ??? -->
-                    <a href="{% url 'update_list' pk=plist.pk %}" class="u-btn"> Update list </a>
+                    <a href="{% url 'update_list' pk=plist.pk %}" class="btn"> Update list </a>
                     <form method="post" action="{% url 'delete_list' pk=plist.pk %}" onsubmit="return confirm('確定要刪除這個清單嗎？');">
                         {% csrf_token %}
-                        <button type="submit"> 刪除 </button>
+                        <button type="submit"> ✕ </button>
                     </form>
                 </div>
-                <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
             </span>
         {% endfor %} 
     </div>
