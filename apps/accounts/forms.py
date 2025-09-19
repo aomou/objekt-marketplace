@@ -2,7 +2,7 @@
 
 from django import forms
 from .models import User, UserProfile
-from django.contrib.auth.models import User  # 修正 import
+from django.contrib.auth.models import User
 
 class UserForm(forms.ModelForm):
     class Meta:
@@ -21,7 +21,7 @@ class ProfileForm(forms.ModelForm):
         widgets = {
             "wallet_address": forms.TextInput(attrs={"placeholder": "0x123456..."}),
             "contact_info": forms.Textarea(attrs={
-                "rows": 4, 
+                "rows": 3, 
                 "placeholder": "Discord username, X id, ..."
                 }),
         }

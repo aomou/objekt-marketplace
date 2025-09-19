@@ -26,10 +26,13 @@ button, .btn {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 5px 15px;
+    border-radius: 5px;
+    line-height: normal;
     background-color: #dde0e2ae;
     border: 1px solid #bbb;
-    border-radius: 5px;
-
+    
+    cursor: pointer;   /* 滑鼠移過去會變成手指 */
+    text-decoration: none;  /* 移除 a link 的底線 */
     transition: 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
 }
 

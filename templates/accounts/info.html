@@ -27,9 +27,9 @@
         <!-- 已經填寫的資訊 -->
         <div class="profile-display">
             <div>
-                <label> Username: </label>
+                <label> Username: </label> 
                     <p> {{ username }}  </p>
-                <label> Email: </label>
+                <label> Email: </label> 
                 {% if request.user.email %}
                     <p> {{ request.user.email }} </p>
                 {% else %}
@@ -37,8 +37,7 @@
                 {% endif %}
             </div>
             <div>
-
-                <label> Wallet address: </label>
+                <label> Wallet address: </label> 
                 {% if user_profile.wallet_address %}
                     <p> <code> {{ user_profile.wallet_address }} </code> </p>
                 {% else %}
@@ -47,7 +46,7 @@
 
                 <label> Contact info: </label>
                 {% if user_profile.contact_info %}
-                    <p> {{ user_profile.contact_info }} </p>
+                    <p> {{ user_profile.contact_info | linebreaksbr }} </p>
                 {% else %}
                     <p> 還沒填寫 </p>
                 {% endif %}
@@ -72,18 +71,17 @@
         <div class="profile-form">
             <form method="POST">
                 {% csrf_token %}
-
                 <fieldset>
                     <legend> User account settings </legend>
                     {{ user_form.as_div }}
                 </fieldset>
                 <br>
                 <fieldset>
-                <legend> User profile </legend>
+                    <legend> User profile </legend>
                     {{ profile_form.as_div }}
                 </fieldset>
                 <br>
-                <button type="submit"> Save </button>
+                <button class="btn" type="submit"> Save </button>
             </form>
         </div>
     </div>

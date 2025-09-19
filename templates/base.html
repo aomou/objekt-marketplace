@@ -29,7 +29,7 @@
                     <p> Hello, <i> {{ user.username }} </i> ! </p>
                     <form method="POST" action="{% url 'logout' %}">
                     {% csrf_token %}
-                        <button class="logout-btn btn" type="submit"> Logout </button> <br>
+                        <button class="btn" type="submit"> Logout </button> <br>
                     </form>
                 {% else %}                  <!-- 未登入 -->
                     <form action="{% url 'register' %}">

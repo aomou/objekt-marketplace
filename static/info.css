@@ -11,15 +11,14 @@
 .profile-display div {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    justify-content: center;
+    margin-bottom: 0;
     gap: 5px;
 }
 
 .profile-display div label {
-    width: 15%;
-    flex-shrink: 0;
-    text-align: right;
-    padding-right: 10px;
+    width: 10%;
+    text-align: center;
 }
 
 .profile-display div p {
@@ -30,19 +29,33 @@
 
 /* profile edit form */
 
+.user-info > h3 {
+    max-width: 1300px;
+    margin: 30px auto;
+    width: 100%;
+    text-align: left;
+}
+
+fieldset {
+    justify-content: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 10px 50px;
+}
+
 fieldset div {
     display: flex;
     align-items: center;
+    padding-top: 10px;
     margin-bottom: 15px;
     gap: 10px;
 }
 
 fieldset div label {
-    width: 25%;
+    width: 200px;
     flex-shrink: 0;
     text-align: center;
     padding-right: 10px;
-    font-weight: medium;
 }
 
 fieldset div input,
@@ -55,8 +68,16 @@ fieldset div textarea {
 }
 
 fieldset .helptext {
+    display: block;
     order: 3;    /* 讓 help text 放在 input 後 */
     font-size: 13px;
     color: #888;
-    margin-top: 2px;
+}
+
+
+/* save btn */
+
+.btn {
+    display: block;
+    margin: auto;
 }

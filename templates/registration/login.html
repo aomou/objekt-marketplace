@@ -15,16 +15,14 @@
         <div class="login-form">
             <form method="POST" action="{% url 'login' %}">
                 {% csrf_token %}
-                <table>
-                    <tr>
-                        <td>{{ form.username.label_tag }}</td>
-                        <td>{{ form.username }}</td>
-                    </tr>
-                    <tr>
-                        <td>{{ form.password.label_tag }}</td>
-                        <td>{{ form.password }}</td>
-                    </tr>
-                </table>
+                <div>
+                    <div> {{ form.username.label_tag }} </div>
+                    <div> {{ form.username }} </div>
+                </div>
+                <div>
+                    <div> {{ form.password.label_tag }} </div>
+                    <div> {{ form.password }} </div>
+                </div>
                 <button type="submit" class="login-btn"> Login </button>
             </form>
         </div>

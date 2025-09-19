@@ -3,9 +3,9 @@
 
 {% block title %} Login {% endblock %}
 
-<!-- 放子分頁的 css -->
+<!-- 子分頁的 css -->
 {% block extra_css %} 
-    {{ block.super }}  <!-- 繼承母版的 css 但不要覆蓋 -->
+    {{ block.super }}  
     <link rel="stylesheet" href="{% static 'login.css' %}">
 {% endblock %}
 
@@ -19,7 +19,7 @@
                     {{ form.as_div }}
                 </fieldset>
                 <br>
-                <button type="submit" class="register-btn" style="justify-content: center; margin-left: 10px;"> Submit </button>
+                <button type="submit" class="btn"> Submit </button>
             </form>
         </div>
     </div>
