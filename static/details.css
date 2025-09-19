@@ -1,3 +1,26 @@
+
+/* links  */
+.list-details-links > a {
+    margin: 20px 20px;
+}
+
+/* info */
+.list-info {
+    padding-left: 50px;
+}
+
+.list-info > div > label {
+    display: inline-block;
+    width: 100px;
+    line-height: 1.8;
+    text-align: right;
+    padding-right: 10px;
+    color: grey;
+}
+
+
+
+/* objekts display  */
 .list-objekts-display {
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 1fr));

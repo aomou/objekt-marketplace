@@ -26,6 +26,7 @@
     <div class="display-all-list">
         {% for plist in all_public_lists %}
             <span class="display-one-list">
+                <div> <a href="{% url 'list_details' pk=plist.pk %}" class="list-name-link"> {{ plist.name }} </a> </div>
                 <div> {{ plist }} </div>
                 <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
             </span>

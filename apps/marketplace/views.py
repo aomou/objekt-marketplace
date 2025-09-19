@@ -43,7 +43,7 @@ class ObjektListView(LoginRequiredMixin, ListView):  # for 類別型 CBV (Class 
         return ObjektList.objects.filter(owner=self.request.user).order_by('-created_at')
 
 # details
-class ObjektListDetailsView(LoginRequiredMixin, DetailView):
+class ObjektListDetailsView(DetailView):
     model = ObjektList
     template_name = 'marketplace/details.html'
     context_object_name = 'objektlist'
@@ -57,7 +57,7 @@ class ObjektListDetailsView(LoginRequiredMixin, DetailView):
         return context
     
     def get_queryset(self):
-        return ObjektList.objects.filter(owner=self.request.user).all()
+        return ObjektList.objects.all()
 
 
 # CRUD edit list 
