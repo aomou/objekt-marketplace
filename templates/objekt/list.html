@@ -13,51 +13,51 @@
 
 
 {% block content %}
+    <div class="filter-sort-bars">
+        <!-- filter -->
+        <div class="filter-bar">
+            <form method="GET">
+                {{ objektFilter.form.as_div }}
+            </form>
+        </div>
 
-    <!-- filter -->
-    <div class="filter-bar">
-        <form method="GET">
-            {{ objektFilter.form.as_table }}
-        </form>
+        <!-- sort -->
+        <div class="sort-bar">
+            <form method="GET" id="sort-form">
+                <!-- 保留現有的 filter 參數 -->
+                {% for field in objektFilter.form %}
+                    {% if field.value %}
+                        <input type="hidden" name="{{ field.name }}" value="{{ field.value }}">
+                    {% endif %}
+                {% endfor %}
+
+                <!-- 保留現有的 order 參數 -->
+                <input type="hidden" name="order" value="{{ request.GET.order }}">
+
+                <label for="sort-select"> 主要排序： </label>
+                <select id="sort-select" name="sort_by" onchange="this.form.submit()">
+                    <option value="" {% if not request.GET.sort_by %}selected{% endif %}> -- 預設 -- </option>
+                    <option value="season" {% if request.GET.sort_by == 'season' %}selected{% endif %}> Season </option>
+                    <option value="member" {% if request.GET.sort_by == 'member' %}selected{% endif %}> Member </option>
+                    <option value="collection" {% if request.GET.sort_by == 'collection' %}selected{% endif %}> Collection </option>
+                    <option value="artist" {% if request.GET.sort_by == 'artist' %}selected{% endif %}> Artist </option>
+                </select>
+
+                <label for="sort-secondary"> 次要排序： </label>
+                <select id="sort-secondary" name="sort_by_2" onchange="this.form.submit()">
+                    <option value="" {% if not request.GET.sort_by_2 %}selected{% endif %}> -- 無 -- </option>
+                    <option value="season" {% if request.GET.sort_by_2 == 'season' %}selected{% endif %}> Season </option>
+                    <option value="member" {% if request.GET.sort_by_2 == 'member' %}selected{% endif %}> Member </option>
+                    <option value="collection" {% if request.GET.sort_by_2 == 'collection' %}selected{% endif %}> Collection </option>
+                    <option value="artist" {% if request.GET.sort_by_2 == 'artist' %}selected{% endif %}> Artist </option>
+                </select>
+
+                <button type="submit" name="order" value="{% if request.GET.order == 'desc' %}asc{% else %}desc{% endif %}">
+                    {% if request.GET.order == 'desc' %} Ascending ↑ {% else %}  Descending ↓ {% endif %}
+                </button>
+            </form>
+        </div>
     </div>
-
-    <!-- sort -->
-    <div class="sort-bar">
-        <form method="GET" id="sort-form">
-            <!-- 保留現有的 filter 參數 -->
-            {% for field in objektFilter.form %}
-                {% if field.value %}
-                    <input type="hidden" name="{{ field.name }}" value="{{ field.value }}">
-                {% endif %}
-            {% endfor %}
-
-            <!-- 保留現有的 order 參數 -->
-            <input type="hidden" name="order" value="{{ request.GET.order }}">
-
-            <label for="sort-select"> 主要排序： </label>
-            <select id="sort-select" name="sort_by" onchange="this.form.submit()">
-                <option value="" {% if not request.GET.sort_by %}selected{% endif %}> -- 預設 -- </option>
-                <option value="season" {% if request.GET.sort_by == 'season' %}selected{% endif %}> Season </option>
-                <option value="member" {% if request.GET.sort_by == 'member' %}selected{% endif %}> Member </option>
-                <option value="collection" {% if request.GET.sort_by == 'collection' %}selected{% endif %}> Collection </option>
-                <option value="artist" {% if request.GET.sort_by == 'artist' %}selected{% endif %}> Artist </option>
-            </select>
-
-            <label for="sort-secondary"> 次要排序： </label>
-            <select id="sort-secondary" name="sort_by_2" onchange="this.form.submit()">
-                <option value="" {% if not request.GET.sort_by_2 %}selected{% endif %}> -- 無 -- </option>
-                <option value="season" {% if request.GET.sort_by_2 == 'season' %}selected{% endif %}> Season </option>
-                <option value="member" {% if request.GET.sort_by_2 == 'member' %}selected{% endif %}> Member </option>
-                <option value="collection" {% if request.GET.sort_by_2 == 'collection' %}selected{% endif %}> Collection </option>
-                <option value="artist" {% if request.GET.sort_by_2 == 'artist' %}selected{% endif %}> Artist </option>
-            </select>
-
-            <button type="submit" name="order" value="{% if request.GET.order == 'desc' %}asc{% else %}desc{% endif %}">
-                {% if request.GET.order == 'desc' %} Ascending ↑ {% else %}  Descending ↓ {% endif %}
-            </button>
-        </form>
-    </div>
-
     <!-- objekt stats info -->
     <div class="info-area">
         <p>共 {{ cards | length }} 張卡</p>
