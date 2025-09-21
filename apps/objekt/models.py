@@ -121,3 +121,6 @@ class ObjektCard(models.Model):
 
     def __str__(self):
         return f"{self.objekt_type} #{self.token_id} "
+    
+    def get_img(self):
+        return self.objekt_type.image_uri

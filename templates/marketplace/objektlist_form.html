@@ -15,15 +15,42 @@
     <link rel="stylesheet" href="{% static 'mylists.css' %}">
 {% endblock %}
 
-
-
 {% block content %}
 
     <!-- lists form -->
     <div class="create-update-list-form">
         <form method="POST">
             {% csrf_token %}
-            {{ form.as_div }}
+            <div class="form-row">
+                <label> {{ form.name.label_tag }} </label>
+                {{ form.name }}
+            </div>
+            <div class="form-row">
+                <label> {{ form.description.label_tag }} </label>
+                {{ form.description }}
+            </div>
+            <div class="form-row" style="width: 250px;">
+                <label> Status: </label>
+                <select>
+                    <option value="True"> Public </option>
+                    <option value="False"> Private </option>
+                </select>
+            </div>
+            <!-- objekt -->
+            <div class="form-objekts">
+                <legend> Objekts: </legend> <br>
+                <div class="objekt-checkboxes">
+                    {% for objekt in form.objekts %}
+                        <div class="objekt-item">
+                            <!-- 圖片出不來 -->
+                            <!-- <img src="{{ objekt.choice_value.get_img }}" alt="Objekt Image" width="100">                             -->
+                            {{ objekt.tag }}   <!-- checkbox -->
+                            {{ objekt.choice_label }}
+                        </div>
+                    {% endfor %}
+                </div>
+            </div> 
+
             <button type="submit"> Save </button>
         </form>
     </div>
