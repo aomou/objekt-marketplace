@@ -22,9 +22,9 @@
     <div class="list-info">
         <div> <label> Name </label> {{ objektlist.name }} </div>
         <div> <label> Owner </label> {{ objektlist.owner }}  </div>
-        <div> <label> Contact info </label> <p class="contact-info"> {{ objektlist.owner.userprofile.contact_info | linebreaksbr }} </p> </div>
-        <div> <label> Description </label> {{ objektlist.description }} </div>
         <div> <label> Created at </label> {{ objektlist.created_at | date:'Y-m-d H:i' }} </div>
+        <div> <label> Contact info </label> <p class="contact-info"> {{ objektlist.owner.userprofile.contact_info | linebreaksbr }} </p> </div>
+        <div> <label> Description </label> {{ objektlist.description | linebreaksbr  }} </div> <br>
         <div>
             {% if objektlist.is_public %}
                 <label> Status </label> Public
@@ -53,11 +53,6 @@
             </details>
         {% endfor %}
     </div>
-
-    
-    
-    
-    
 
     
 {% endblock %}
