@@ -80,6 +80,19 @@ target_tokenId_list = [
     1040471, 6877276, 14617765, 14763904,   # WCO PCO
 ]
 
+target_tokenId_list = [
+    15664269, 15664201, 15634320, 15516611, 14954163, 14761377, 13713631, 14675699, 12795605, 
+    14131346, 14072344, 14069489, 14070045, 13832921, 13832937, 13737391, 13733620, 13735541,
+    13460870, 12834026, 11865153, 3446274, 608728, 613832, 672189, 671894, 572453, 572654, 
+    7314117, 7139780, 7139793
+]
+
+target_tokenId_list = [
+    10778096, 6877338, 6877191, 6877357, 6877273, 429276, 8110359, 433026, 1422139, 1018620, 
+    1018764, 9932466, 924159, 4446352, 2285931, 14129569, 2898946, 9546265
+]
+
+
 data = get_list_nft_metadata(target_tokenId_list)
 
 for i in data:
@@ -102,26 +115,31 @@ imported = 0
 # 寫入資料庫
 with transaction.atomic():
     for otype in data:
-        # 不能直接傳 str 要改成從 model get instance
-        name = otype['name']
-        img = otype['image']
-        tokenId = otype['tokenId']
-        artist = Artist.objects.get(name=otype['attributes']['Artist'])
-        objekt_class = Class.objects.get(name=otype['attributes']['Class'])
-        member = Member.objects.get(name=otype['attributes']['Member'])
-        season = Season.objects.get(name=otype['attributes']['Season'])
-        collection = Collection.objects.get(name=otype['attributes']['Collection'])
+        try:
+            # 不能直接傳 str 要改成從 model get instance
+            name = otype['name']
+            img = otype['image']
+            tokenId = otype['tokenId']
+            artist = Artist.objects.get(name=otype['attributes']['Artist'])
+            objekt_class = Class.objects.get(name=otype['attributes']['Class'], artist=artist)
+            member = Member.objects.get(name=otype['attributes']['Member'])
+            season = Season.objects.get(name=otype['attributes']['Season'])
+            collection = Collection.objects.get(name=otype['attributes']['Collection'])
         
-        # 先查詢有沒有此 name，有查到就回傳 is_new = False，沒有就新增 is_new=T
-        obj, is_new = ObjektType.objects.update_or_create( 
-            artist = artist,
-            member = member,
-            season = season,
-            objekt_class = objekt_class,
-            collection = collection,
-            image_uri = img,
-        )
-        if is_new: 
-            imported += 1
+            # 先查詢有沒有此 name，有查到就回傳 is_new = False，沒有就新增 is_new=T
+            obj, is_new = ObjektType.objects.update_or_create( 
+                artist = artist,
+                member = member,
+                season = season,
+                objekt_class = objekt_class,
+                collection = collection,
+                image_uri = img,
+            )
+            if is_new: 
+                imported += 1
+        except Exception as e:
+            print(f'Failed to import {name}')
+            print(e)
+            continue
 
 print('Imported objekt type:', imported)

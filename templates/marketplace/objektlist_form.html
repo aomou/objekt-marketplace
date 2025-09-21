@@ -36,6 +36,9 @@
                     <option value="False" {% if not form.instance.is_public %}selected{% endif %}> Private </option>
                 </select>
             </div>
+
+            <button type="submit"> Save </button> <br>
+
             <!-- objekt -->
             <div class="form-objekts">
                 <legend> Objekts: </legend> <br>
@@ -47,12 +50,12 @@
                                 {{ objekt.data.label }} <br>
                             </div>
                             <img src="{{ objekt.data.value.instance.image_uri }}" alt="Objekt Image!" width="100">                            
-                        </div>
+                            <br>
+                        </div> 
                     {% endfor %}
                 </div>
-            </div> 
-
-            <button type="submit"> Save </button>
+            </div>  <br>
+            <button type="submit"> Save </button> <br>
         </form>
     </div>
 

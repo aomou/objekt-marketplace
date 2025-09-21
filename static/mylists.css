@@ -111,7 +111,8 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 15px;
-    padding: 10px;
+    padding: 20px;
+    padding-top: 30px;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -125,4 +126,9 @@
     justify-content: center;
     align-items: center;
     gap: 8px;
+}
+
+.create-update-list-form button {
+    display: block;
+    margin: 0 auto;   /* 自動左右邊距，置中 */
 }

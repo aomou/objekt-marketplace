@@ -777,6 +777,15 @@
   }
 },
 {
+  "model": "objekt.class",
+  "pk": 15,
+  "fields": {
+    "name": "Double",
+    "artist": "ARTMS",
+    "startNum": 3
+  }
+},
+{
   "model": "objekt.collection",
   "pk": "000Z",
   "fields": {
@@ -1573,6 +1582,15 @@
   "pk": "225Z",
   "fields": {
     "collection_number": "225",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "226Z",
+  "fields": {
+    "collection_number": "226",
     "collection_suffix": "Z",
     "physical": false
   }
