@@ -1,12 +1,12 @@
 # 定義 user objektlists CRUD 列表
 
 from django import forms
-from .models import ObjektList, ObjektCard
+from .models import ObjektList, ObjektType
 from django.contrib.auth.models import User
 
 class ListEditForm(forms.ModelForm):
     objekts = forms.ModelMultipleChoiceField(
-        queryset = ObjektCard.objects.all(),
+        queryset = ObjektType.objects.all(),
         widget = forms.CheckboxSelectMultiple
     )
 

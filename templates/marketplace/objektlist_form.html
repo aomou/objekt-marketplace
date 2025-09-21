@@ -31,9 +31,9 @@
             </div>
             <div class="form-row" style="width: 250px;">
                 <label> Status: </label>
-                <select>
-                    <option value="True"> Public </option>
-                    <option value="False"> Private </option>
+                <select name="is_public">
+                    <option value="True" {% if form.instance.is_public %}selected{% endif %} > Public </option>
+                    <option value="False" {% if not form.instance.is_public %}selected{% endif %}> Private </option>
                 </select>
             </div>
             <!-- objekt -->
@@ -43,7 +43,7 @@
                     {% for objekt in form.objekts %}
                         <div class="objekt-item">
                             <!-- 圖片出不來 -->
-                            <!-- <img src="{{ objekt.choice_value.get_img }}" alt="Objekt Image" width="100">                             -->
+                            <img src="{{ objekt.choice_value.image_uri }}" alt="Objekt Image" width="100">                            
                             {{ objekt.tag }}   <!-- checkbox -->
                             {{ objekt.choice_label }}
                         </div>

@@ -6,7 +6,7 @@ from django.db.models import Count
 class ObjektList(models.Model):
     name = models.CharField(max_length=50)
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='objekt_list')
-    objekts = models.ManyToManyField(ObjektCard, related_name='objekt_list', blank=True)
+    objekts = models.ManyToManyField(ObjektType, related_name='objekt_list', blank=True)
     description = models.TextField(blank=True)
     # price = models.DecimalField(decimal_places=2, max_digits=8, null=True, blank=True)
     is_public = models.BooleanField(default=False)
@@ -18,13 +18,14 @@ class ObjektList(models.Model):
     def get_objekts_stats(self):
         def to_dict(qs, key):
             return {row[key]: row['count'] for row in qs}
-        class_count = self.objekts.values('objekt_type__objekt_class__name').annotate(count=Count('id')).order_by('-count')
-        artist_count = self.objekts.values('objekt_type__artist__name').annotate(count=Count('id')).order_by('-count')
-        season_count = self.objekts.values('objekt_type__season__name').annotate(count=Count('id')).order_by('-count')
+        class_count = self.objekts.values('objekt_class__name').annotate(count=Count('id')).order_by('-count')
+        artist_count = self.objekts.values('artist__name').annotate(count=Count('id')).order_by('-count')
+        season_count = self.objekts.values('season__name').annotate(count=Count('id')).order_by('-count')
+        member_count = self.objekts.values('member__name').annotate(count=Count('id')).order_by('-count')
         traits_count = {
-            'class': to_dict(class_count, 'objekt_type__objekt_class__name'),
-            'artist': to_dict(artist_count, 'objekt_type__artist__name'),
-            'season': to_dict(season_count, 'objekt_type__season__name'),
+            'class': to_dict(class_count, 'objekt_class__name'),
+            'artist': to_dict(artist_count, 'artist__name'),
+            'season': to_dict(season_count, 'season__name'),
         }
         return traits_count
 
