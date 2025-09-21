@@ -22,7 +22,7 @@
     grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr;
     column-gap: 30px;
     align-items: center;
-    padding: 28px 35px;
+    padding: 20px 30px;
 
     background-color: rgba(211, 222, 227, 0.353);
     border-radius: 4px;
@@ -34,7 +34,6 @@
     justify-self: start;
     padding: 15px 20px;
     text-decoration: none;
-    font-size: larger;
     font-weight: bolder;
     color: rgb(43, 48, 50);
     transition: color .5s;

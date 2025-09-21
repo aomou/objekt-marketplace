@@ -18,7 +18,8 @@
 
 .profile-display div label {
     width: 10%;
-    text-align: center;
+    text-align: right;
+    padding-right: 10px;
 }
 
 .profile-display div p {
