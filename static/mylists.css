@@ -78,7 +78,7 @@
     flex-direction: column;
     gap: 20px;
 
-    max-width: 1000px;        /* 限制表單寬度 */
+    max-width: 1200px;        /* 限制表單寬度 */
     margin: 20px auto;       /* 置中 */
     padding: 20px;           /* 內距 */
 }
@@ -99,7 +99,8 @@
 
 .create-update-list-form .form-row input,
 .create-update-list-form .form-row textarea {
-    border: 1px solid #ddd
+    border: 1px solid #ddd;
+    max-width: 600px;
 }
 
 .create-update-list-form .form-row input:last-child {
@@ -108,7 +109,7 @@
 
 .form-objekts .objekt-checkboxes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     padding: 10px;
     background: #fff;
@@ -116,4 +117,12 @@
     border-radius: 4px;
 
     font-size: 13px;
+}
+
+.objekt-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }

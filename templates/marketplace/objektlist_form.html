@@ -42,10 +42,11 @@
                 <div class="objekt-checkboxes">
                     {% for objekt in form.objekts %}
                         <div class="objekt-item">
-                            <!-- 圖片出不來 -->
-                            <img src="{{ objekt.choice_value.image_uri }}" alt="Objekt Image" width="100">                            
-                            {{ objekt.tag }}   <!-- checkbox -->
-                            {{ objekt.choice_label }}
+                            <div>
+                                {{ objekt.tag }}   <!-- checkbox -->
+                                {{ objekt.data.label }} <br>
+                            </div>
+                            <img src="{{ objekt.data.value.instance.image_uri }}" alt="Objekt Image!" width="100">                            
                         </div>
                     {% endfor %}
                 </div>
