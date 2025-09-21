@@ -121,7 +121,54 @@ header h3:hover {
     background-color: #24537D;
 }
 
+/* objekt card */
+
+.objekt-card {
+    border-radius: 6px;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.objekt-card summary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  list-style: none; /* 去掉預設箭頭 */
+}
+
+.objekt-card summary::-webkit-details-marker {
+  display: none; /* 隱藏 Chrome/Safari 的 marker */
+}
+
+.objekt-card img {
+  max-height: 100px;
+  border-radius: 4px;
+}
+
+.objekt-details {
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+.objekt-details p {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+
+.objekt-details > p > label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+    color: grey;
+}
+
+
 /* footer */
+
 footer p {
     /* 1. appearance */
     background-color: #4881b487;

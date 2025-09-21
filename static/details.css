@@ -1,10 +1,13 @@
 
 /* links  */
+
 .list-details-links > a {
     margin: 20px 20px;
 }
 
+
 /* info */
+
 .list-info {
     padding-left: 50px;
 }
@@ -19,8 +22,8 @@
 }
 
 
-
 /* objekts display  */
+
 .list-objekts-display {
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 1fr));
@@ -30,15 +33,13 @@
     justify-items: center;    /* 讓每格內的項目置中 */
 }
 
-/* Each card inside the grid */
 .list-objekts-display > * {
     display: flex;
-    flex-direction: column;  /* stack image then text */
+    flex-direction: column;   /* stack image then text */
     align-items: center;      /* center content horizontally */
     text-align: center;       /* center text within the card */
 }
 
-/* Make images block-level and add spacing below */
 .list-objekts-display img {
     display: block;
     max-width: 100%;

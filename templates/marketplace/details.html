@@ -34,12 +34,21 @@
 
         <div class="list-objekts-display">
             {% for objekt in objekts %}
-                <div> 
-                    {% if objekt.objekt_type.image_uri %}
-                        <img src="{{ objekt.objekt_type.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
-                    {% endif %}
-                    <div> {{ objekt }} </div>
-                </div>
+                <details class="objekt-card">
+                    <summary>
+                        {% if objekt.objekt_type.image_uri %}
+                            <img src="{{ objekt.objekt_type.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
+                        {% endif %}
+                        <div> {{ objekt }} </div>
+                    </summary>
+                    <div class="objekt-details">
+                        <p><label> Artist </label> {{ objekt.objekt_type.artist.name }}</p>
+                        <p><label> Season </label> {{ objekt.objekt_type.season.name }}</p>
+                        <p><label> Class </label> {{ objekt.objekt_type.objekt_class.name }}</p>
+                        <p><label> Member </label> {{ objekt.objekt_type.member.name }}</p>
+                        <p><label> Collection </label> {{ objekt.objekt_type.collection.name }}</p>
+                    </div>
+                </details>
             {% endfor %}
         </div>
     </div>
