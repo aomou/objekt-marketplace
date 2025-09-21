@@ -62,7 +62,7 @@ header {
     padding: 10px 10px;
 }
 
-header h3 {
+header h3, header a {
     padding-left: 15px;
     font-style: italic;
     color: black;
@@ -70,9 +70,14 @@ header h3 {
     transition-timing-function: ease;
 }
 
-header h3:hover {
+header h3:hover, 
+header a:hover {
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px #047, 0 0 5px #049;
+}
+
+header a {
+    text-decoration: none;
 }
 
 .log-in-info {
