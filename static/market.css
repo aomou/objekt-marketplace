@@ -18,8 +18,9 @@
 
 .display-one-list {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 140px auto;
-    column-gap: 16px;
+    /* 名稱 | 特徵統計 | 擁有者 | 張數 */
+    grid-template-columns: 2fr 0.5fr 0.5fr 0.5fr;
+    column-gap: 30px;
     align-items: center;
     padding: 28px 35px;
 
@@ -27,7 +28,10 @@
     border-radius: 4px;
 }
 
+/* list name  */
+
 .list-name-link {
+    justify-self: start;
     padding: 15px 20px;
     text-decoration: none;
     font-size: larger;
@@ -39,4 +43,33 @@
 .list-name-link:hover {
     color: black;
     text-decoration: underline;
+}
+
+/* list traits stats  */
+
+.trait-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: start;
+}
+
+.trait-stats label {
+    display: inline-block;
+    margin: 2px 4px;
+    padding: 2px 6px;
+    font-size: 12px;
+    background: #f0f0f0;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.trait-stats label:hover {
+    border: 1px solid rgba(128, 128, 128, 0.506);
+}
+
+/* list owner & 張數統計 */
+.display-one-list > div:nth-child(3),
+.display-one-list > div:nth-child(4) {
+    justify-self: center;
 }

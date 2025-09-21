@@ -25,6 +25,8 @@ def mylists(request):
 
 def marketplace(request):
     all_public_lists = ObjektList.objects.filter(is_public=True).all()
+    for plist in all_public_lists:
+        plist.stats = plist.get_objekts_stats()
 
     context = {
         'all_public_lists': all_public_lists,

@@ -25,11 +25,28 @@
     <!-- display lists -->
     <div class="display-all-list">
         {% for plist in all_public_lists %}
-            <span class="display-one-list">
+            <div class="display-one-list">
                 <div> <a href="{% url 'list_details' pk=plist.pk %}" class="list-name-link"> {{ plist.name }} </a> </div>
+                <div class="trait-stats">
+                    <div>
+                        {% for aname, ccount in plist.stats.artist.items %}
+                            <label> {{ aname }} </label> 
+                        {% endfor %}
+                    </div>
+                    <div>
+                        {% for sname, ccount in plist.stats.season.items %}
+                            <label> {{ sname }} </label> 
+                        {% endfor %}
+                    </div>
+                    <div>
+                        {% for cname, ccount in plist.stats.class.items %}
+                            <label> {{ cname }} </label> 
+                        {% endfor %}
+                    </div>
+                </div>
                 <div> {{ plist.owner }} </div>
                 <div> 共 {{ plist.objekts.all | length }} 張卡 </div>
-            </span>
+            </div>
         {% endfor %} 
     </div>
 
