@@ -21,7 +21,8 @@
     </div>
     <div class="list-info">
         <div> <label> Name </label> {{ objektlist.name }} </div>
-        <div> <label> Owner </label> {{ objektlist.owner }} </div>
+        <div> <label> Owner </label> {{ objektlist.owner }}  </div>
+        <div> <label> Contact info </label> <p class="contact-info"> {{ objektlist.owner.userprofile.contact_info | linebreaksbr }} </p> </div>
         <div> <label> Description </label> {{ objektlist.description }} </div>
         <div> <label> Created at </label> {{ objektlist.created_at | date:'Y-m-d H:i' }} </div>
         <div>
@@ -31,27 +32,27 @@
                 <label> Status </label> Private
             {% endif %}
         </div> <br>
-
-        <div class="list-objekts-display">
-            {% for objekt in objekts %}
-                <details class="objekt-card">
-                    <summary>
-                        {% if objekt.objekt_type.image_uri %}
-                            <img src="{{ objekt.objekt_type.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
-                        {% endif %}
-                        <div> {{ objekt }} </div>
-                    </summary>
-                    <div class="objekt-details">
-                        <p><label> Artist </label> {{ objekt.objekt_type.artist.name }}</p>
-                        <p><label> Season </label> {{ objekt.objekt_type.season.name }}</p>
-                        <p><label> Class </label> {{ objekt.objekt_type.objekt_class.name }}</p>
-                        <p><label> Member </label> {{ objekt.objekt_type.member.name }}</p>
-                        <p><label> Collection </label> {{ objekt.objekt_type.collection.name }}</p>
-                    </div>
-                </details>
-            {% endfor %}
-        </div>
     </div>
+    <div class="list-objekts-display">
+        {% for objekt in objekts %}
+            <details class="objekt-card">
+                <summary>
+                    {% if objekt.objekt_type.image_uri %}
+                        <img src="{{ objekt.objekt_type.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
+                    {% endif %}
+                    <div> {{ objekt }} </div>
+                </summary>
+                <div class="objekt-details">
+                    <p><label> Artist </label> {{ objekt.objekt_type.artist.name }}</p>
+                    <p><label> Season </label> {{ objekt.objekt_type.season.name }}</p>
+                    <p><label> Class </label> {{ objekt.objekt_type.objekt_class.name }}</p>
+                    <p><label> Member </label> {{ objekt.objekt_type.member.name }}</p>
+                    <p><label> Collection </label> {{ objekt.objekt_type.collection.name }}</p>
+                </div>
+            </details>
+        {% endfor %}
+    </div>
+
     
     
     
