@@ -9,6 +9,8 @@ import requests, json, time
 import pandas as pd 
 
 baseurl = 'https://api.cosmo.fans/bff/v3/objekts/nft-metadata/'
+# 改用 token api 可以獲得背面圖
+# https://api.cosmo.fans/objekt/v1/token/9416482
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)',
     'Accept': 'application/json',
@@ -67,6 +69,8 @@ def get_list_nft_metadata(tk_list=[1, 145000]):
             print(f'Token id: {tk_id} not found')
             continue
     return results
+
+
 
 target_tokenId_list = [
     1, 10000, 100000, 1001000, 1501000, 2001000, 2501000, 5001000, 6501000, 8001000, 

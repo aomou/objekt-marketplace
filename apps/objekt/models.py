@@ -16,8 +16,6 @@ from django.db import models
 class Artist(models.Model):
     name = models.CharField(max_length=50, primary_key=True)
     tokenId = models.IntegerField()
-   # debutYear = models.IntegerField() 很難定義
-   # debutDate = models.DateField(null=True)
     sex = models.CharField(max_length=5)
 
     def __str__(self):  # 預設顯示名字
