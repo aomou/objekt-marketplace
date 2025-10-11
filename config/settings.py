@@ -10,8 +10,13 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
-from pathlib import Path
 import os
+import dj_database_url
+from pathlib import Path
+from dotenv import load_dotenv
+
+
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -21,14 +26,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-rijq91b&ahlmn148s&*g@sb##mv@k&_u7pl^t+aok$gd1^4645'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-rijq91b&ahlmn148s&*g@sb##mv@k&_u7pl^t+aok$gd1^4645')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 # 每次更新
-ALLOWED_HOSTS = ['127.0.0.1', 'unmistakingly-nonexperienced-pamelia.ngrok-free.dev']
-
+# ALLOWED_HOSTS = ['127.0.0.1', 'unmistakingly-nonexperienced-pamelia.ngrok-free.dev']
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', 'localhost,127.0.0.1').split(',')
 
 # Application definition
 
@@ -57,6 +62,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',  # whitenoise 部署時處理靜態檔案
 ]
 
 ROOT_URLCONF = 'config.urls'
@@ -88,6 +94,13 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# 如果有環境變數 DATABASE_URL，就用它（Render 會自動提供）
+if 'DATABASE_URL' in os.environ:
+    DATABASES['default'] = dj_database_url.config(
+        conn_max_age=600,
+        conn_health_checks=True,
+    )
 
 # Login / Logout
 LOGIN_URL = 'login'       # 用 /絕對路徑 或 用我在 urls 自己命名的
@@ -130,7 +143,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [BASE_DIR / "static"]  # 預設值？
+STATICFILES_DIRS = [BASE_DIR / 'static']  # 預設值？
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field

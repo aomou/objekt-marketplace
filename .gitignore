@@ -9,11 +9,15 @@ db.sqlite3
 # Virtual env
 venv/
 .env
+*.env
 
 # IDE / OS
 .DS_Store
 .vscode/
 CLAUDE.md
+
+# Ignore collected static files
+/staticfiles/
 
 # other files
 slides

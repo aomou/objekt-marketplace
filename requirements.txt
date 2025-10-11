@@ -1,3 +1,8 @@
+dotenv==0.9.9
+dj_database_url==3.0.1
 Django==5.2
-pandas==2.3.2
+gunicorn==23.0.0
+pandas==2.3.3
+python-dotenv==1.1.1
 Requests==2.32.5
+whitenoise==6.7.0
