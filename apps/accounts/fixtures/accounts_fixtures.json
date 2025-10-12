@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "user": 1,
-    "wallet_address": "0x6c62364A42475Ef38D4475B80C5A39cAddDF9042",
+    "wallet_address": "0x1234abcd",
     "contact_info": "DC: @Aomou"
   }
 },

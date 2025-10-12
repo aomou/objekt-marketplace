@@ -16,7 +16,7 @@ python manage.py migrate
 # python manage.py createsuperuser --noinput || true   
 
 # 匯入 fixture（放在各 app 的 fixtures 資料夾）
-python manage.py loaddata apps/objekt/fixtures/objekt_fixtures.json || true
+# python manage.py loaddata apps/objekt/fixtures/objekt_fixtures.json || true
 # python manage.py loaddata apps/accounts/fixtures/accounts_fixtures.json || true
 # python manage.py loaddata apps/marketplace/fixtures/marketplace_fixtures.json || true
 
