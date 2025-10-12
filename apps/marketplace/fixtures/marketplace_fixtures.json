@@ -1,0 +1,140 @@
+[
+{
+  "model": "marketplace.objektlist",
+  "pk": 1,
+  "fields": {
+    "name": "Want To Sell (later)",
+    "owner": 1,
+    "description": "not ready yet",
+    "is_public": false,
+    "created_at": "2025-09-21T14:45:17.553Z",
+    "objekts": [
+      32,
+      39
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 4,
+  "fields": {
+    "name": "My Sale List",
+    "owner": 1,
+    "description": "5$ each",
+    "is_public": true,
+    "created_at": "2025-09-21T15:05:02.843Z",
+    "objekts": [
+      32,
+      31,
+      78,
+      40,
+      77
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 5,
+  "fields": {
+    "name": "WTB",
+    "owner": 2,
+    "description": "i need these",
+    "is_public": false,
+    "created_at": "2025-09-21T15:16:09.627Z",
+    "objekts": [
+      16,
+      2,
+      7,
+      20,
+      12,
+      29,
+      35,
+      6
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 6,
+  "fields": {
+    "name": "WTS",
+    "owner": 2,
+    "description": "i need money\r\nAll $3 USD / $80 NTD each\r\nPaypal, wise or Taiwan Bank",
+    "is_public": true,
+    "created_at": "2025-09-21T15:17:05.584Z",
+    "objekts": [
+      75,
+      92,
+      74,
+      93,
+      36,
+      85,
+      45,
+      81,
+      80,
+      83,
+      82,
+      25,
+      64,
+      63,
+      62
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 7,
+  "fields": {
+    "name": "User2's Objekt List",
+    "owner": 3,
+    "description": "this is my list",
+    "is_public": true,
+    "created_at": "2025-09-21T15:54:17.470Z",
+    "objekts": [
+      7,
+      23,
+      30,
+      6
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 8,
+  "fields": {
+    "name": "WTS idntt",
+    "owner": 2,
+    "description": "",
+    "is_public": true,
+    "created_at": "2025-09-21T17:08:05.449Z",
+    "objekts": [
+      48,
+      49,
+      54,
+      27,
+      41,
+      66,
+      53,
+      51
+    ]
+  }
+},
+{
+  "model": "marketplace.objektlist",
+  "pk": 9,
+  "fields": {
+    "name": "List title",
+    "owner": 1,
+    "description": "ko",
+    "is_public": true,
+    "created_at": "2025-09-22T08:28:46.424Z",
+    "objekts": [
+      22,
+      2,
+      11,
+      7,
+      90
+    ]
+  }
+}
+]
