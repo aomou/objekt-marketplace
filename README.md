@@ -18,7 +18,7 @@
 - 🌐 **區塊鏈整合** - 支援錢包地址和區塊鏈令牌追蹤（待開發）
 
 ## 🚀 線上展示
-[Live Demo](https://...)
+[Live Demo](https://objekt-marketplace.onrender.com/)
 
 ## 技術架構
 
