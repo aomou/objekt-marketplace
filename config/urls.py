@@ -19,6 +19,7 @@ from django.urls import include, path
 from django.contrib.auth.views import LoginView, LogoutView  # login logout
 from apps.objekt.views import filtered_objekt_type  # import objekt view
 from apps.accounts import views
+from .views import health_check
 
 urlpatterns = [
     path('', filtered_objekt_type, name='home'),
@@ -29,4 +30,5 @@ urlpatterns = [
     path('objekt/', include('apps.objekt.urls')),
     path('accounts/', include('apps.accounts.urls')),
     path('marketplace/', include('apps.marketplace.urls')),
+    path('ping/', health_check, name='ping'),
 ]
