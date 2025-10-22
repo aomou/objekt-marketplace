@@ -69,9 +69,9 @@
             <details class="objekt-card">
                 <summary>
                     {% if card.image_uri %}
-                        <img src="{{ card.image_uri }}" alt="{{ card }}" style="max-height: 150px;">
+                        <img src="{{ card.image_uri }}" alt="{{ card }}">
                     {% endif %}
-                    <p> {{ card }} </p>
+                    <div class="objekt-name"> {{ card }} </div>
                 </summary>
                 <div class="objekt-details">
                     <p><label> Artist </label> {{ card.artist.name }}</p>

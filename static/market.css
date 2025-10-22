@@ -32,7 +32,7 @@
 
 .list-name-link {
     justify-self: start;
-    padding: 15px 20px;
+    /* padding: 15px 20px; */
     text-decoration: none;
     font-weight: bolder;
     color: rgb(43, 48, 50);
@@ -48,7 +48,7 @@
 
 .trait-stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr); */
     gap: 20px;
     justify-items: start;
 }

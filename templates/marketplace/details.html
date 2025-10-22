@@ -33,14 +33,14 @@
             {% endif %}
         </div> <br>
     </div>
-    <div class="list-objekts-display">
+    <div class="display-all-objekt">
         {% for objekt in objekts %}
             <details class="objekt-card">
                 <summary>
                     {% if objekt.image_uri %}
-                        <img src="{{ objekt.image_uri }}" alt="{{ objekt }}" style="max-height: 150px;">
+                        <img src="{{ objekt.image_uri }}" alt="{{ objekt }}">
                     {% endif %}
-                    <div> {{ objekt }} </div>
+                    <div class="objekt-name"> {{ objekt }} </div>
                 </summary>
                 <div class="objekt-details">
                     <p><label> Artist </label> {{ objekt.artist.name }}</p>

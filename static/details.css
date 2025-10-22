@@ -32,27 +32,3 @@
     text-align: left; 
 }
 
-/* objekts display  */
-
-.list-objekts-display {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(100px, 1fr));
-    gap: 1rem;
-
-    justify-content: center;  /* 讓整個 grid 置中 */
-    justify-items: center;    /* 讓每格內的項目置中 */
-}
-
-.list-objekts-display > * {
-    display: flex;
-    flex-direction: column;   /* stack image then text */
-    align-items: center;      /* center content horizontally */
-    text-align: center;       /* center text within the card */
-}
-
-.list-objekts-display img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
-}

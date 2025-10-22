@@ -41,29 +41,3 @@
     margin-right: 8px;
 }
 
-/* display */
-
-.display-all-objekt {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(100px, 1fr));
-    gap: 1rem;
-
-    justify-content: center;  /* 讓整個 grid 置中 */
-    justify-items: center;    /* 讓每格內的項目置中 */
-}
-
-/* Each card inside the grid */
-.display-all-objekt > * {
-    display: flex;
-    flex-direction: column;  /* stack image then text */
-    align-items: center;      /* center content horizontally */
-    text-align: center;       /* center text within the card */
-}
-
-/* Make images block-level and add spacing below */
-.display-all-objekt img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 0.5rem;
-}

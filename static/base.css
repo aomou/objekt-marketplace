@@ -12,6 +12,8 @@ html {
 body {
     margin: 0;   /* rm browser default border */
     padding: 16px 20px;
+    font-size: 14px;
+
 }
 
 code {
@@ -63,7 +65,7 @@ header {
 }
 
 header h3, header a {
-    padding-left: 15px;
+    padding-left: 3px;
     font-style: italic;
     color: black;
     transition: color 0.4s, text-shadow 0.2s;
@@ -116,7 +118,7 @@ header a {
     color: black;
     background-color: rgba(208, 226, 241, 0.5);
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     
     transition: background-color 0.1s, color 0.1s; /* 加上轉場效果，讓 hover 更平滑 */
 }
@@ -124,6 +126,32 @@ header a {
 .nav-grid nav a:hover {
     color: white;
     background-color: #24537D;
+}
+
+/* display */
+
+.display-all-objekt {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 1rem;
+
+    justify-content: start;  
+    justify-items: center;    /* 讓每格內的項目置中 */
+}
+
+
+/* Each card inside the grid */
+.display-all-objekt > * {
+    display: flex;
+    flex-direction: column;  /* stack image then text */
+    align-items: center;      /* center content horizontally */
+    text-align: center;       /* center text within the card */
+}
+
+/* Make images block-level and add spacing below */
+.display-all-objekt img {
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 /* objekt card */
@@ -143,18 +171,22 @@ header a {
   list-style: none; /* 去掉預設箭頭 */
 }
 
+.objekt-name {
+  width: 100px;
+}
+
 .objekt-card summary::-webkit-details-marker {
   display: none; /* 隱藏 Chrome/Safari 的 marker */
 }
 
 .objekt-card img {
-  max-height: 100px;
+  max-height: 140px;
   border-radius: 4px;
 }
 
 .objekt-details {
   margin-top: 8px;
-  font-size: 0.9em;
+  font-size: 10px;
 }
 
 .objekt-details p {
@@ -165,7 +197,7 @@ header a {
 
 .objekt-details > p > label {
     display: inline-block;
-    width: 100px;
+    width: 65px;
     text-align: right;
     padding-right: 10px;
     color: grey;
