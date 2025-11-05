@@ -10,6 +10,7 @@ whitenoise==6.7.0
 # Database
 dj_database_url==3.0.1
 psycopg2-binary==2.9.11
+mysqlclient==2.2.7
 
 # Util
 pandas==2.3.3
