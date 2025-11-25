@@ -19,6 +19,7 @@ python manage.py createsuperuser --noinput || true
 python manage.py loaddata apps/objekt/fixtures/artist_fixtures.json || true
 python manage.py loaddata apps/objekt/fixtures/member_fixtures.json || true
 python manage.py loaddata apps/objekt/fixtures/season_fixtures.json || true
+python manage.py loaddata apps/objekt/fixtures/class_fixtures.json || true
 python manage.py loaddata apps/objekt/fixtures/collection_fixtures.json || true
 python manage.py loaddata apps/objekt/fixtures/objekttype_fixtures.json || true
 python manage.py loaddata apps/objekt/fixtures/objektcard_fixtures.json || true
