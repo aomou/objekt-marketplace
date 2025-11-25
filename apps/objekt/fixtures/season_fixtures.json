@@ -1,0 +1,98 @@
+[
+{
+  "model": "objekt.season",
+  "pk": "Atom01",
+  "fields": {
+    "shortname": "A",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Atom",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Atom02",
+  "fields": {
+    "shortname": "AA",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Atom",
+    "seasonNum": 2
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Binary01",
+  "fields": {
+    "shortname": "B",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Binary",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Cream01",
+  "fields": {
+    "shortname": "C",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Cream",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Divine01",
+  "fields": {
+    "shortname": "D",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Divine",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Ever01",
+  "fields": {
+    "shortname": "E",
+    "artist": "tripleS",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Ever",
+    "seasonNum": 1
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Spring25",
+  "fields": {
+    "shortname": "sp",
+    "artist": "idntt",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Spring",
+    "seasonNum": 25
+  }
+},
+{
+  "model": "objekt.season",
+  "pk": "Summer25",
+  "fields": {
+    "shortname": "sm",
+    "artist": "idntt",
+    "startDate": null,
+    "endDate": null,
+    "seasonPrefix": "Summer",
+    "seasonNum": 25
+  }
+}
+]

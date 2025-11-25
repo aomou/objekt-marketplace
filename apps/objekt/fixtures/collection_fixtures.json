@@ -1,0 +1,1739 @@
+[
+{
+  "model": "objekt.collection",
+  "pk": "000Z",
+  "fields": {
+    "collection_number": "000",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "100Z",
+  "fields": {
+    "collection_number": "100",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "101A",
+  "fields": {
+    "collection_number": "101",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "101Z",
+  "fields": {
+    "collection_number": "101",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "102A",
+  "fields": {
+    "collection_number": "102",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "102Z",
+  "fields": {
+    "collection_number": "102",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "103A",
+  "fields": {
+    "collection_number": "103",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "103Z",
+  "fields": {
+    "collection_number": "103",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "104A",
+  "fields": {
+    "collection_number": "104",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "104Z",
+  "fields": {
+    "collection_number": "104",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "105A",
+  "fields": {
+    "collection_number": "105",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "105Z",
+  "fields": {
+    "collection_number": "105",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "106A",
+  "fields": {
+    "collection_number": "106",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "106Z",
+  "fields": {
+    "collection_number": "106",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "107A",
+  "fields": {
+    "collection_number": "107",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "107Z",
+  "fields": {
+    "collection_number": "107",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "108A",
+  "fields": {
+    "collection_number": "108",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "108Z",
+  "fields": {
+    "collection_number": "108",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "109A",
+  "fields": {
+    "collection_number": "109",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "109Z",
+  "fields": {
+    "collection_number": "109",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "110A",
+  "fields": {
+    "collection_number": "110",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "110Z",
+  "fields": {
+    "collection_number": "110",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "111A",
+  "fields": {
+    "collection_number": "111",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "111Z",
+  "fields": {
+    "collection_number": "111",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "112A",
+  "fields": {
+    "collection_number": "112",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "112Z",
+  "fields": {
+    "collection_number": "112",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "113A",
+  "fields": {
+    "collection_number": "113",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "113Z",
+  "fields": {
+    "collection_number": "113",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "114A",
+  "fields": {
+    "collection_number": "114",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "114Z",
+  "fields": {
+    "collection_number": "114",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "115A",
+  "fields": {
+    "collection_number": "115",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "115Z",
+  "fields": {
+    "collection_number": "115",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "116A",
+  "fields": {
+    "collection_number": "116",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "116Z",
+  "fields": {
+    "collection_number": "116",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "117A",
+  "fields": {
+    "collection_number": "117",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "117Z",
+  "fields": {
+    "collection_number": "117",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "118A",
+  "fields": {
+    "collection_number": "118",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "118Z",
+  "fields": {
+    "collection_number": "118",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "119A",
+  "fields": {
+    "collection_number": "119",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "119Z",
+  "fields": {
+    "collection_number": "119",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "120A",
+  "fields": {
+    "collection_number": "120",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "120Z",
+  "fields": {
+    "collection_number": "120",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "200Z",
+  "fields": {
+    "collection_number": "200",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "201A",
+  "fields": {
+    "collection_number": "201",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "201Z",
+  "fields": {
+    "collection_number": "201",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "202A",
+  "fields": {
+    "collection_number": "202",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "202Z",
+  "fields": {
+    "collection_number": "202",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "203A",
+  "fields": {
+    "collection_number": "203",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "203Z",
+  "fields": {
+    "collection_number": "203",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "204A",
+  "fields": {
+    "collection_number": "204",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "204Z",
+  "fields": {
+    "collection_number": "204",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "205A",
+  "fields": {
+    "collection_number": "205",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "205Z",
+  "fields": {
+    "collection_number": "205",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "206A",
+  "fields": {
+    "collection_number": "206",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "206Z",
+  "fields": {
+    "collection_number": "206",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "207A",
+  "fields": {
+    "collection_number": "207",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "207Z",
+  "fields": {
+    "collection_number": "207",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "208A",
+  "fields": {
+    "collection_number": "208",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "208Z",
+  "fields": {
+    "collection_number": "208",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "209A",
+  "fields": {
+    "collection_number": "209",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "209Z",
+  "fields": {
+    "collection_number": "209",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "210A",
+  "fields": {
+    "collection_number": "210",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "210Z",
+  "fields": {
+    "collection_number": "210",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "211A",
+  "fields": {
+    "collection_number": "211",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "211Z",
+  "fields": {
+    "collection_number": "211",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "212A",
+  "fields": {
+    "collection_number": "212",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "212Z",
+  "fields": {
+    "collection_number": "212",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "213A",
+  "fields": {
+    "collection_number": "213",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "213Z",
+  "fields": {
+    "collection_number": "213",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "214A",
+  "fields": {
+    "collection_number": "214",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "214Z",
+  "fields": {
+    "collection_number": "214",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "215A",
+  "fields": {
+    "collection_number": "215",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "215Z",
+  "fields": {
+    "collection_number": "215",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "216A",
+  "fields": {
+    "collection_number": "216",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "216Z",
+  "fields": {
+    "collection_number": "216",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "217A",
+  "fields": {
+    "collection_number": "217",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "217Z",
+  "fields": {
+    "collection_number": "217",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "218A",
+  "fields": {
+    "collection_number": "218",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "218Z",
+  "fields": {
+    "collection_number": "218",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "219A",
+  "fields": {
+    "collection_number": "219",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "219Z",
+  "fields": {
+    "collection_number": "219",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "220A",
+  "fields": {
+    "collection_number": "220",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "220Z",
+  "fields": {
+    "collection_number": "220",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "221A",
+  "fields": {
+    "collection_number": "221",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "221Z",
+  "fields": {
+    "collection_number": "221",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "222Z",
+  "fields": {
+    "collection_number": "222",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "223Z",
+  "fields": {
+    "collection_number": "223",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "224Z",
+  "fields": {
+    "collection_number": "224",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "225Z",
+  "fields": {
+    "collection_number": "225",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "226Z",
+  "fields": {
+    "collection_number": "226",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "301A",
+  "fields": {
+    "collection_number": "301",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "301Z",
+  "fields": {
+    "collection_number": "301",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "302A",
+  "fields": {
+    "collection_number": "302",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "302Z",
+  "fields": {
+    "collection_number": "302",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "303A",
+  "fields": {
+    "collection_number": "303",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "303Z",
+  "fields": {
+    "collection_number": "303",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "304A",
+  "fields": {
+    "collection_number": "304",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "304Z",
+  "fields": {
+    "collection_number": "304",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "305A",
+  "fields": {
+    "collection_number": "305",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "305Z",
+  "fields": {
+    "collection_number": "305",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "306A",
+  "fields": {
+    "collection_number": "306",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "306Z",
+  "fields": {
+    "collection_number": "306",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "307A",
+  "fields": {
+    "collection_number": "307",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "307Z",
+  "fields": {
+    "collection_number": "307",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "308A",
+  "fields": {
+    "collection_number": "308",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "308Z",
+  "fields": {
+    "collection_number": "308",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "309A",
+  "fields": {
+    "collection_number": "309",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "309Z",
+  "fields": {
+    "collection_number": "309",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "310A",
+  "fields": {
+    "collection_number": "310",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "310Z",
+  "fields": {
+    "collection_number": "310",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "311A",
+  "fields": {
+    "collection_number": "311",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "311Z",
+  "fields": {
+    "collection_number": "311",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "312A",
+  "fields": {
+    "collection_number": "312",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "312Z",
+  "fields": {
+    "collection_number": "312",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "313A",
+  "fields": {
+    "collection_number": "313",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "313Z",
+  "fields": {
+    "collection_number": "313",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "314A",
+  "fields": {
+    "collection_number": "314",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "314Z",
+  "fields": {
+    "collection_number": "314",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "315A",
+  "fields": {
+    "collection_number": "315",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "315Z",
+  "fields": {
+    "collection_number": "315",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "316A",
+  "fields": {
+    "collection_number": "316",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "316Z",
+  "fields": {
+    "collection_number": "316",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "317Z",
+  "fields": {
+    "collection_number": "317",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "318Z",
+  "fields": {
+    "collection_number": "318",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "319Z",
+  "fields": {
+    "collection_number": "319",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "320Z",
+  "fields": {
+    "collection_number": "320",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "321Z",
+  "fields": {
+    "collection_number": "321",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "322A",
+  "fields": {
+    "collection_number": "322",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "322Z",
+  "fields": {
+    "collection_number": "322",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "323A",
+  "fields": {
+    "collection_number": "323",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "323Z",
+  "fields": {
+    "collection_number": "323",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "324A",
+  "fields": {
+    "collection_number": "324",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "324Z",
+  "fields": {
+    "collection_number": "324",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "325A",
+  "fields": {
+    "collection_number": "325",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "325Z",
+  "fields": {
+    "collection_number": "325",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "326A",
+  "fields": {
+    "collection_number": "326",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "326Z",
+  "fields": {
+    "collection_number": "326",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "327A",
+  "fields": {
+    "collection_number": "327",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "327Z",
+  "fields": {
+    "collection_number": "327",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "328A",
+  "fields": {
+    "collection_number": "328",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "328Z",
+  "fields": {
+    "collection_number": "328",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "329Z",
+  "fields": {
+    "collection_number": "329",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "330A",
+  "fields": {
+    "collection_number": "330",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "330Z",
+  "fields": {
+    "collection_number": "330",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "331A",
+  "fields": {
+    "collection_number": "331",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "331Z",
+  "fields": {
+    "collection_number": "331",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "332A",
+  "fields": {
+    "collection_number": "332",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "332Z",
+  "fields": {
+    "collection_number": "332",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "333Z",
+  "fields": {
+    "collection_number": "333",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "334A",
+  "fields": {
+    "collection_number": "334",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "334Z",
+  "fields": {
+    "collection_number": "334",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "335Z",
+  "fields": {
+    "collection_number": "335",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "336A",
+  "fields": {
+    "collection_number": "336",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "336Z",
+  "fields": {
+    "collection_number": "336",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "337A",
+  "fields": {
+    "collection_number": "337",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "337Z",
+  "fields": {
+    "collection_number": "337",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "338Z",
+  "fields": {
+    "collection_number": "338",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "339A",
+  "fields": {
+    "collection_number": "339",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "339Z",
+  "fields": {
+    "collection_number": "339",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "340Z",
+  "fields": {
+    "collection_number": "340",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "341Z",
+  "fields": {
+    "collection_number": "341",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "342A",
+  "fields": {
+    "collection_number": "342",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "342Z",
+  "fields": {
+    "collection_number": "342",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "343A",
+  "fields": {
+    "collection_number": "343",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "343Z",
+  "fields": {
+    "collection_number": "343",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "344A",
+  "fields": {
+    "collection_number": "344",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "344Z",
+  "fields": {
+    "collection_number": "344",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "345A",
+  "fields": {
+    "collection_number": "345",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "345Z",
+  "fields": {
+    "collection_number": "345",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "346A",
+  "fields": {
+    "collection_number": "346",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "346Z",
+  "fields": {
+    "collection_number": "346",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "347A",
+  "fields": {
+    "collection_number": "347",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "347Z",
+  "fields": {
+    "collection_number": "347",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "348A",
+  "fields": {
+    "collection_number": "348",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "348Z",
+  "fields": {
+    "collection_number": "348",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "349A",
+  "fields": {
+    "collection_number": "349",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "349Z",
+  "fields": {
+    "collection_number": "349",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "350A",
+  "fields": {
+    "collection_number": "350",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "350Z",
+  "fields": {
+    "collection_number": "350",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "351A",
+  "fields": {
+    "collection_number": "351",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "351Z",
+  "fields": {
+    "collection_number": "351",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "352A",
+  "fields": {
+    "collection_number": "352",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "352Z",
+  "fields": {
+    "collection_number": "352",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "353Z",
+  "fields": {
+    "collection_number": "353",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "354Z",
+  "fields": {
+    "collection_number": "354",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "355Z",
+  "fields": {
+    "collection_number": "355",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "356Z",
+  "fields": {
+    "collection_number": "356",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "357Z",
+  "fields": {
+    "collection_number": "357",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "358Z",
+  "fields": {
+    "collection_number": "358",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "359Z",
+  "fields": {
+    "collection_number": "359",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "401A",
+  "fields": {
+    "collection_number": "401",
+    "collection_suffix": "A",
+    "physical": true
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "401Z",
+  "fields": {
+    "collection_number": "401",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+},
+{
+  "model": "objekt.collection",
+  "pk": "402Z",
+  "fields": {
+    "collection_number": "402",
+    "collection_suffix": "Z",
+    "physical": false
+  }
+}
+]

@@ -1,0 +1,533 @@
+[
+{
+  "model": "objekt.member",
+  "pk": "ChaeWon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S21",
+    "memberNum": 21
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "ChaeYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S4",
+    "memberNum": 4
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Choerry",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "DaHyun",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S10",
+    "memberNum": 10
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "DoHun",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HaSeul",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "3",
+    "memberNum": 3
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HaYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S19",
+    "memberNum": 19
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HeeJin",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HeeJu",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id2",
+    "memberNum": 2
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HwanHee",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "HyeRin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S2",
+    "memberNum": 2
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JaeYoung",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id5",
+    "memberNum": 5
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiWoo",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S3",
+    "memberNum": 3
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiWoon",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JiYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S24",
+    "memberNum": 24
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JinSoul",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JooBin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S18",
+    "memberNum": 18
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "JuHo",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Kaede",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S9",
+    "memberNum": 9
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "KimLip",
+  "fields": {
+    "artist": "ARTMS",
+    "memberCode": "6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Kotone",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S11",
+    "memberNum": 11
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Lynn",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S17",
+    "memberNum": 17
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Mayu",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S16",
+    "memberNum": 16
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "NaKyoung",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S7",
+    "memberNum": 7
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Nien",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S13",
+    "memberNum": 13
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SeoAh",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S23",
+    "memberNum": 23
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SeoYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S1",
+    "memberNum": 1
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "ShiOn",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S20",
+    "memberNum": 20
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SoHyun",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S14",
+    "memberNum": 14
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "SooMin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S6",
+    "memberNum": 6
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Sullin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S22",
+    "memberNum": 22
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "TaeIn",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": "id4",
+    "memberNum": 4
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "Xinyu",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S15",
+    "memberNum": 15
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YeonJi",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S12",
+    "memberNum": 12
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YooYeon",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S5",
+    "memberNum": 5
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "YuBin",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": "S8",
+    "memberNum": 8
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id2",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id4",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id1 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id4",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id2 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id5",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id4 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id6",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id5 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id6 X id7",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id6 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "id7 X id8",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "idntt",
+  "fields": {
+    "artist": "idntt",
+    "memberCode": null,
+    "memberNum": null
+  }
+},
+{
+  "model": "objekt.member",
+  "pk": "tripleS",
+  "fields": {
+    "artist": "tripleS",
+    "memberCode": null,
+    "memberNum": null
+  }
+}
+]

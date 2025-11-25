@@ -1,0 +1,26 @@
+[
+{
+  "model": "objekt.artist",
+  "pk": "ARTMS",
+  "fields": {
+    "tokenId": 2,
+    "sex": "F"
+  }
+},
+{
+  "model": "objekt.artist",
+  "pk": "idntt",
+  "fields": {
+    "tokenId": 3,
+    "sex": "M"
+  }
+},
+{
+  "model": "objekt.artist",
+  "pk": "tripleS",
+  "fields": {
+    "tokenId": 1,
+    "sex": "F"
+  }
+}
+]

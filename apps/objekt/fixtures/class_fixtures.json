@@ -1,0 +1,137 @@
+[
+{
+  "model": "objekt.class",
+  "pk": 1,
+  "fields": {
+    "name": "Basic",
+    "artist": "idntt",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 2,
+  "fields": {
+    "name": "Double",
+    "artist": "tripleS",
+    "startNum": 3
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 3,
+  "fields": {
+    "name": "Event",
+    "artist": "idntt",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 4,
+  "fields": {
+    "name": "First",
+    "artist": "tripleS",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 5,
+  "fields": {
+    "name": "First",
+    "artist": "ARTMS",
+    "startNum": 1
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 6,
+  "fields": {
+    "name": "Premier",
+    "artist": "tripleS",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 7,
+  "fields": {
+    "name": "Premier",
+    "artist": "ARTMS",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 8,
+  "fields": {
+    "name": "Special",
+    "artist": "tripleS",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 9,
+  "fields": {
+    "name": "Special",
+    "artist": "ARTMS",
+    "startNum": 2
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 10,
+  "fields": {
+    "name": "Special",
+    "artist": "idntt",
+    "startNum": 3
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 11,
+  "fields": {
+    "name": "Unit",
+    "artist": "idntt",
+    "startNum": 4
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 12,
+  "fields": {
+    "name": "Welcome",
+    "artist": "tripleS",
+    "startNum": 100
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 13,
+  "fields": {
+    "name": "Welcome",
+    "artist": "ARTMS",
+    "startNum": 100
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 14,
+  "fields": {
+    "name": "Zero",
+    "artist": null,
+    "startNum": null
+  }
+},
+{
+  "model": "objekt.class",
+  "pk": 15,
+  "fields": {
+    "name": "Double",
+    "artist": "ARTMS",
+    "startNum": 3
+  }
+}
+]
